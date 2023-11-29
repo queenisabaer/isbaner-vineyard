@@ -1,39 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Isbaner vineyard
+_HTML and CSS Essentials Project Portfolio - Code Institute_
 
-Welcome,
+View deployed site here:()
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The site is targeted towards friends and family who want to stay in touch with the owners of the vineyard, visit them and keep updated through the year what happens on the vineyard. Furthermore it will be useful for people who want to know something about the Gutedel grape. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Table of contents
+* [User Experience (UX)](#user-experience) 
+* [Features](#features)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-## Codeanywhere Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+-   User stories (Goals for: First Time Visitor, Returning Visitor, Frequent User)
 
-`python3 -m http.server`
+     
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Existing Features
 
-`http_server`
+- __Navigation Bar__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    - 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+      ![Navbar]()
+    
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __Landing Page__
 
-To log into the Heroku toolbelt CLI:
+    -
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+      ![Landing Page]()
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Xxx__
 
----
+    - 
 
-Happy coding!
+- __Footer__
+
+    - Address & Social Media
+
+      ![Footer]()
+
+- __Gutedel Page__
+
+    - The Gutedel page xxx
+
+       ![Gutedel Page]()
+
+- __Gallery Page__
+
+    - The Gallery page xxx
+
+       ![Gallery Page]()
+
+- __Contact Page__
+
+   - The contact page xxx
+
+      ![Contact]()
+
+### Features which I would like to implement in the future
+
+- 
+  
+
+## Design
+
+-   Imagery, Colour Scheme, Typography
+   
+
+
+-   ### Wireframes
+
+    -   
+
+## Technologies Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+-   To import fonts into the style.css: [Google Fonts:](https://fonts.google.com/)
+-   to add Icons: [Font Awesome:](https://fontawesome.com/)
+-   [Git:](https://git-scm.com/) 
+-   [GitHub:](https://github.com/)
+-   [Balsamiq:](https://balsamiq.com/) 
+-   ???
+    
+
+## Testing
+
+1. Validator Testing
+
+- [HTML Validator](https://validator.w3.org/)
+
+    - result for index.html
+      ![HTML results index]()
+    - result for gutedel.html
+      ![HTML results gutedel]()
+    - result for gallery.html
+      ![HTML results gallery]()    
+    - result for contact.html
+      ![HTML results contact]()
+        
+
+2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    - result for styles.css 
+      ![CSS results]()
+
+      The warnings are due to 1) import of the Google fonts
+
+3. Browser Compatibility
+
+- xxx
+  
+4. Bugs
+
+- xxx
+
+## Deployment
+
+- xxx
+
+## Credits 
+
+### Content 
+- 
+
+### Code
+- 
+
+### Media 
+-
+
+### ReadMe
+
+- 
+
+
+### Acknowledgments
+
+- 
+
+__This is for educational use.__
