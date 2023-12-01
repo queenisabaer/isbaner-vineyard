@@ -6,14 +6,12 @@
 body {
     font-family: 'Nobile', sans-serif;
     background-color: #F2FAEF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Header */
-header {
-    position: fixed;
-    width: 100%;
-    z-index: 13;
-}
 
 h1 {
     color: #295900;
@@ -23,11 +21,6 @@ h1 {
 
 
 /* Navigation bar */
-nav {
-    display: flex;
-
-}
-
 .nav-item a {
     color: #295900;
     text-decoration: none;
@@ -47,12 +40,19 @@ nav {
 
 /* Main Content */
 
-main {
-    margin-top: auto;
-}
+
 
 /* Footer */
 
-footer {
+
+
+.coordinates {
     color: #295900;
+    font-family: 'Tangerine';
+    font-size: 200%;
+    text-decoration-thickness: 1px;
+}
+
+#social-networks {
+    
 }
