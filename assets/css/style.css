@@ -1,18 +1,54 @@
 /* Google Fonts import URL */
 @import url('https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Tangerine:wght@400;700&display=swap');
 
+/* General Styles */
+
+body {
+    font-family: 'Nobile', sans-serif;
+    background-color: #F2FAEF;
+}
+
 /* Header */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 13;
+}
 
 h1 {
     color: #295900;
     /* Chose a serif font as fall-back to be more similar to the logo */
-    font-family: 'tangerine', serif;
-}    
+    font-family: 'tangerine', serif; 
+}
+
+
+/* Navigation bar */
+nav {
+    display: flex;
+
+}
+
+.nav-item a {
+    color: #295900;
+    text-decoration: none;
+}
+
+#menu li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.active {
+    border-bottom: #295900 1px solid;
+}
+
 
 /* Main Content */
 
 main {
-    background-color: #d8e8cd;
+    margin-top: auto;
 }
 
 /* Footer */
