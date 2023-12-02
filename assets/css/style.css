@@ -15,25 +15,32 @@ body {
 }
 
 /* Header */
-
-h1 {
-    color: #295900;
-    /* Chose a serif font as fall-back to be more similar to the logo */
-    font-family: 'tangerine', serif; 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+#logo {
+    color: #295900;
+    /* Chose a cursive font as fall-back to be more similar to the logo */
+    font-family: 'tangerine', cursive; 
+    padding-left: 10px;
+    text-decoration: none;
+}
 
 /* Navigation bar */
 .nav-item a {
-    color: #295900;
+    color: #000000;
     text-decoration: none;
 }
 
 #menu li {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-right: 10px;
     display: flex;
+    justify-content: flex-end;
 }
 
 .active {
@@ -51,7 +58,7 @@ footer {
 }
 .coordinates {
     color: #295900;
-    font-family: 'Tangerine';
+    font-family: 'Tangerine', serif;
     font-size: 1.5rem;
     text-decoration-thickness: 1px;
 }
