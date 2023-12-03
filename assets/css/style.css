@@ -21,8 +21,6 @@ header {
     align-items: baseline;
     position: fixed;
     width: 100%;
-
-
 }
 
 #logo {
@@ -53,7 +51,7 @@ header {
 
 /* Main Content */
 main {
-    margin-top: 80px;
+    margin-top: 75px;
 }
 
 
@@ -63,12 +61,26 @@ footer {
 }
 .coordinates {
     color: #295900;
-    font-family: 'Tangerine', serif;
-    font-size: 1.5rem;
-    text-decoration-thickness: 1px;
+    font-size: 15px;
+}
+#coordinates div{
+    margin-bottom: 16px;
 }
 
-#social-networks {
+.social-networks {
     text-decoration: none;
     list-style-type: none;
+    padding-left: 0;
+
+}
+
+.social-networks li {
+    display: inline;
+    padding: 10px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
