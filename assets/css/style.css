@@ -29,6 +29,7 @@ header {
     font-family: 'tangerine', cursive; 
     padding-left: 10px;
     text-decoration: none;
+    text-wrap: nowrap;
 }
 
 /* Navigation bar */
@@ -61,7 +62,6 @@ footer {
 }
 .coordinates {
     color: #295900;
-    font-size: 15px;
 }
 #coordinates div{
     margin-bottom: 16px;
@@ -71,7 +71,6 @@ footer {
     text-decoration: none;
     list-style-type: none;
     padding-left: 0;
-
 }
 
 .social-networks li {
@@ -83,4 +82,21 @@ footer {
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+/* Media query: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+    /* Footer */
+    #coordinates > div  {
+       float: left;
+    }
+
+    #social > div, #social > ul {
+        display: inline;
+    }
+
+    .coordinates {
+        padding: 0 10px;
+    }
+
 }
