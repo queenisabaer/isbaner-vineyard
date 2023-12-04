@@ -11,7 +11,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 
 /* Header */
@@ -27,7 +26,8 @@ header {
     color: #295900;
     /* Chose a cursive font as fall-back to be more similar to the logo */
     font-family: 'tangerine', cursive; 
-    padding-left: 10px;
+    font-size: 125%;
+    padding: 0 15px;
     text-decoration: none;
     text-wrap: nowrap;
 }
@@ -38,11 +38,12 @@ header {
     text-decoration: none;
 }
 
-#menu li {
+.nav-item {
     list-style-type: none;
     margin: 0;
-    padding-right: 10px;
-    display: inline-block;
+    padding: 0 15px;
+    display: inline;
+    text-align: center;
 }
 
 .active {
@@ -63,6 +64,7 @@ footer {
 .coordinates {
     color: #295900;
 }
+
 #coordinates div{
     margin-bottom: 16px;
 }
@@ -76,6 +78,7 @@ footer {
 .social-networks li {
     display: inline;
     padding: 10px;
+    font-size: 110%;
 }
 
 .bottom-container {
@@ -84,11 +87,11 @@ footer {
     text-align: center;
 }
 
-/* Media query: tablets and larger (768px and up)*/
-@media screen and (min-width: 768px) {
+/* larger or landscape phones (576px or larger) */
+@media screen and (min-width: 576px) {
     /* Footer */
     #coordinates > div  {
-       float: left;
+    display: inline-block;
     }
 
     #social > div, #social > ul {
