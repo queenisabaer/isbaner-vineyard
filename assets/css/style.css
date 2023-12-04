@@ -20,6 +20,8 @@ header {
     align-items: baseline;
     position: fixed;
     width: 100%;
+    padding: 0 1rem;
+    z-index: 13;
 }
 
 #logo {
@@ -27,7 +29,6 @@ header {
     /* Chose a cursive font as fall-back to be more similar to the logo */
     font-family: 'tangerine', cursive; 
     font-size: 125%;
-    padding: 0 15px;
     text-decoration: none;
     text-wrap: nowrap;
 }
