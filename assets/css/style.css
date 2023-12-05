@@ -34,9 +34,7 @@ header {
 }
 
 #logo {
-    color: #295900;
-    /* Chose a cursive font as fall-back to be more similar to the logo */
-    font-family: 'tangerine', cursive; 
+    color: #295900; 
     font-size: 125%;
     text-decoration: none;
     text-wrap: nowrap;
@@ -44,6 +42,11 @@ header {
 
 h1 {
     margin: 15px 0;
+}
+
+h1, h2 {
+    /* Chose a cursive font as fall-back to be more similar to the logo */
+    font-family: 'tangerine', cursive;
 }
 
 /* Navigation bar */
@@ -119,16 +122,24 @@ footer {
 .fieldset legend {
     background-color: #295900;
     color: #ffffff;
-    font-family: 'tangerine', cursive;
-    font-size: 2rem;
-    padding: 2px 15px;
+    padding: 0 15px;
+    font-size: 150%;
+}
+
+.fieldset h2 {
+    margin: 5px;
 }
 
 .text-input {
     width: 100%;
-    padding: 2px;
+    padding: 5px;
     margin-bottom: 10px;
     height: 20px;
+}
+
+.contact-information {
+    margin-right: 15px;
+
 }
 
 .contact-button {
