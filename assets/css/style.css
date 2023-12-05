@@ -30,6 +30,7 @@ header {
     width: 100%;
     padding: 0 1rem;
     z-index: 13;
+    background-color: #ffffff;
 }
 
 #logo {
@@ -39,6 +40,10 @@ header {
     font-size: 125%;
     text-decoration: none;
     text-wrap: nowrap;
+}
+
+h1 {
+    margin: 15px 0;
 }
 
 /* Navigation bar */
@@ -62,15 +67,16 @@ header {
 
 /* Main Content */
 main {
-    margin-top: 75px;
+    margin-top: 95px;
 }
-
 
 /* Footer */
 footer {
     margin-top: auto;
+    padding-top: 15px;
+    background-color: #ffffff;
 }
-.coordinates {
+.vinegreen {
     color: #295900;
 }
 
@@ -94,6 +100,45 @@ footer {
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+/* Contact Page */
+
+#contact {
+    background: url(../images/contact/grapes-in-july-2018.jpg);
+    background-size: cover;
+}
+
+.fieldset {
+    background-color: rgba(213, 182, 166, 0.7);
+    border-color: #295900;
+    margin: 15px;
+    padding: 0 15px;
+}
+
+.fieldset legend {
+    background-color: #295900;
+    color: #ffffff;
+    font-family: 'tangerine', cursive;
+    font-size: 2rem;
+    padding: 2px 15px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.contact-button {
+    font-size: 1rem;
+    background-color: #295900;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 10px 25px;
+    margin-top: 15px;
 }
 
 /* larger or landscape phones (576px or larger) */

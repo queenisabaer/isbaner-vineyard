@@ -1,108 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Homepage for the vineyard of the Isbaner Family, located in Wethau, Germany">
-    <meta name="keywords" content="vineyard, isbaner, vine, grapes, chasselas, wethau, saxony-anhalt">
-    <meta name="author" content="Dajana Isbaner"> 
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Homepage for the vineyard of the Isbaner Family, located in Wethau, Germany"
+    />
+    <meta
+      name="keywords"
+      content="vineyard, isbaner, vine, grapes, chasselas, wethau, saxony-anhalt"
+    />
+    <meta name="author" content="Dajana Isbaner" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Title -->
     <title>Isbaner Vineyard</title>
-</head>
-<body>
+  </head>
+  <body id="contact">
     <!-- Header Section -->
     <header>
-        <a href="index.html" id="logo">
-            <h1>Isbaner Vineyard</h1>
-        </a>
-        <!-- Navbar -->
-        <nav id="menu">
-            <ul>
-                <li class="nav-item"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="about.html">About us</a></li>
-                <li class="nav-item"><a href="gallery.html">Gallery</a></li>
-                <li class="nav-item active"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <a href="index.html" id="logo">
+        <h1>Isbaner Vineyard</h1>
+      </a>
+      <!-- Navbar -->
+      <nav id="menu">
+        <ul>
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About us</a></li>
+          <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+          <li class="nav-item active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <hr>
-
 
     <!-- Main Section -->
-    <main id="contact">
-        <!-- Contact Form Section-->
-
-    <section>
+    <main>
+      <!-- Contact Form Section-->
+      <section>
         <form action="https://formdump.codeinstitute.net" method="POST">
-            <fieldset>
-                <legend>Contact us</legend>
-                <p>We are excited to welcome you to our small vineyard, located in Wethau, Saxony-Anhalt. Immerse yourself in our beautiful garden and enjoy the spectacular view over Wethau holding a glass of wine in your hand. If you are interested, we will host you for a private tasting experience. Please use the following form:</p>
-                <label for="first_name">First Name<span class="grapegreen">*</span></label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last Name<span class="grapegreen">*</span></label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
-                <br>
-                <label for="email_address">Email Address<span class="grapegreen">*</span></label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required>
-                <br>
-                <label for="telephone">Telephone</label>
-                <input type="text" name="telephone" id="telephone" class="text-input">
-                <p>I want:</p>
-                <div id="contact-reasons">
-                    <div>
-                        <input type="checkbox" value="vine-tasting" id="vine-tasting" name="">
-                        <label for="vine-tasting">to book a vine-tasting</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" value="guided-tour" id="guided-tour" name="">
-                        <label for="guided-tour">a guided tour</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" value="visit" id="visit" name="" checked>
-                        <label for="visit">to see the spectacular view</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" value="visit" id="visit" name="">
-                        <label for="visit">more information</label>
-                    </div>
-                    <button type="submit" class="contact-button">Cheers and submit</button>
-                    <p class="gloss"><span class="grapegreen">*</span>required</p>
-                </div>
-            </fieldset>
+          <fieldset class="fieldset">
+            <legend>Contact us</legend>
+            <p>
+              We are excited to welcome you to our small vineyard, located in
+              Wethau, Saxony-Anhalt. Immerse yourself in our beautiful garden
+              and enjoy the spectacular view over Wethau holding a glass of wine
+              in your hand. If you are interested, we will host you for a
+              private tasting experience. Please use the following form:
+            </p>
+            <label for="first_name"
+              >First Name<span class="vinegreen">*</span></label
+            >
+            <input
+              type="text"
+              name="first_name"
+              id="first_name"
+              class="text-input"
+              required
+            />
+            <br />
+            <label for="last_name"
+              >Last Name<span class="vinegreen">*</span></label
+            >
+            <input
+              type="text"
+              name="last_name"
+              id="last_name"
+              class="text-input"
+              required
+            />
+            <br />
+            <label for="email_address"
+              >Email Address<span class="vinegreen">*</span></label
+            >
+            <input
+              type="email"
+              name="email_address"
+              id="email_address"
+              class="text-input"
+              required
+            />
+            <br />
+            <label for="telephone">Telephone</label>
+            <input
+              type="text"
+              name="telephone"
+              id="telephone"
+              class="text-input"
+            />
+            <p>I want:</p>
+            <div id="contact-reasons">
+              <div>
+                <input
+                  type="checkbox"
+                  value="vine-tasting"
+                  id="vine-tasting"
+                  name=""
+                />
+                <label for="vine-tasting">to book a vine-tasting</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  value="guided-tour"
+                  id="guided-tour"
+                  name=""
+                />
+                <label for="guided-tour">a guided tour</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  value="visit"
+                  id="visit"
+                  name=""
+                  checked
+                />
+                <label for="visit">to see the spectacular view</label>
+              </div>
+              <div>
+                <input type="checkbox" value="visit" id="visit" name="" />
+                <label for="visit">more information</label>
+              </div>
+              <button type="submit" class="contact-button">
+                Cheers and submit
+              </button>
+              <p class="gloss"><span class="vinegreen">*</span>required</p>
+            </div>
+          </fieldset>
         </form>
     </section>
-
 
     </main>
 
     <!-- Footer -->
     <footer>
-        <div class="bottom-container">
+      <div class="bottom-container">
         <!-- Link to Google Maps and Coordinates-->
-            <div id="coordinates">
-                <div>Find us:</div>
-                <a href="https://maps.app.goo.gl/SgrZZBphfzshUyoN6" class="coordinates" target="_blank" rel="noopener" aria-label="Find us on Google Maps (opens in a new tab)">51°08'26.0"N 11°51'28.9"E</a>
-            </div>
-        <!-- Social Media Links -->
-            <div id="social">
-                <div>Follow us:</div>
-                <ul class="social-networks">
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook-f" style="color: #295900;"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram" style="color: #295900;"></i></a>
-                    </li>
-                </ul>
-            </div>
+        <div id="coordinates">
+          <div>Find us:</div>
+          <a
+            href="https://maps.app.goo.gl/SgrZZBphfzshUyoN6"
+            class="vinegreen"
+            target="_blank"
+            rel="noopener"
+            aria-label="Find us on Google Maps (opens in a new tab)"
+            >51°08'26.0"N 11°51'28.9"E</a
+          >
         </div>
+        <!-- Social Media Links -->
+        <div id="social">
+          <div>Follow us:</div>
+          <ul class="social-networks">
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"
+                ><i class="fa-brands fa-facebook-f" style="color: #295900"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"
+                ><i class="fa-brands fa-instagram" style="color: #295900"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
-
     <!-- Font awesome kit-->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/3b20d96fa9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
