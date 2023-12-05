@@ -107,6 +107,8 @@ footer {
 
 /* Contact Page */
 
+/* Contact us section */
+
 #contact {
     background: url(../images/contact/grapes-in-july-2018.jpg);
     background-size: cover;
@@ -150,6 +152,15 @@ footer {
     border: 1px solid #ffffff;
     padding: 10px 25px;
     margin-top: 15px;
+}
+
+/* Find us section */
+
+#location-map {
+    width: 50%;
+    float: right;
+    margin: 15px 0;
+    border-radius: 5px;
 }
 
 /* larger or landscape phones (576px or larger) */
