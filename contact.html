@@ -31,7 +31,52 @@
 
 
     <!-- Main Section -->
-    <main>Main Content</main>
+    <main id="contact">
+        <!-- Contact Form Section-->
+
+    <section>
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <fieldset>
+                <legend>Contact us</legend>
+                <p>We are excited to welcome you to our small vineyard, located in Wethau, Saxony-Anhalt. Immerse yourself in our beautiful garden and enjoy the spectacular view over Wethau holding a glass of wine in your hand. If you are interested, we will host you for a private tasting experience. Please use the following form:</p>
+                <label for="first_name">First Name<span class="grapegreen">*</span></label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name<span class="grapegreen">*</span></label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address<span class="grapegreen">*</span></label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <label for="telephone">Telephone</label>
+                <input type="text" name="telephone" id="telephone" class="text-input">
+                <p>I want:</p>
+                <div id="contact-reasons">
+                    <div>
+                        <input type="checkbox" value="vine-tasting" id="vine-tasting" name="">
+                        <label for="vine-tasting">to book a vine-tasting</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="guided-tour" id="guided-tour" name="">
+                        <label for="guided-tour">a guided tour</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="visit" id="visit" name="" checked>
+                        <label for="visit">to see the spectacular view</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="visit" id="visit" name="">
+                        <label for="visit">more information</label>
+                    </div>
+                    <button type="submit" class="contact-button">Cheers and submit</button>
+                    <p class="gloss"><span class="grapegreen">*</span>required</p>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+
+    </main>
 
     <!-- Footer -->
     <footer>

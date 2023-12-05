@@ -13,6 +13,14 @@ body {
     flex-direction: column;
 }
 
+.gloss {
+    font-size: 12px;
+}
+
+.grapegreen {
+    color: #648865;
+}
+
 /* Header */
 header {
     display: flex;
