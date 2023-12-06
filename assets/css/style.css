@@ -108,6 +108,9 @@ main {
     background: url(../images/vinyard-october-2022-hero.jpg) no-repeat center center/cover;
     width: 100%;
     height: 300px;
+}
+
+.image-container {
     position: relative;
 }
 
@@ -116,9 +119,11 @@ main {
     background-color: rgba(213, 182, 166, 0.8);
     border: #D5B6A6 1px solid;
     border-radius: 5px;
-    padding: 15px 25px;
+    padding: 10px 25px;
     position: absolute;
-
+    width: 33%;
+    min-width: fit-content;
+    top: 25px;
 }
 
 .image-button a {
