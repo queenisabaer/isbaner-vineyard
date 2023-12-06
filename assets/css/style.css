@@ -26,7 +26,12 @@ h1, h2 {
     font-family: 'tangerine', cursive;
 }
 
+.vinegreen {
+    color: #295900;
+}
+
 /* For footnotes */
+
 .gloss {
     font-size: 12px;
 }
@@ -65,15 +70,15 @@ nav {
 
 .nav-item a {
     color: #000000;
+    list-style-type: none;
 }
 
 .nav-item {
-    list-style-type: none;
     margin: 0;
     padding: 0 15px;
     display: inline;
     text-align: center;
-}
+}   
 
 .active {
     border-bottom: #295900 1px solid;
@@ -93,11 +98,34 @@ nav {
     font-size: 2rem;
 }
 
-
 /* Main Content */
 main {
-    margin-top: 80px;
+    margin-top: 66px;
 }
+
+/* Hero Image */
+#hero {
+    background: url(../images/vinyard-october-2022-hero.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.image-button {
+    font-size: 1.25rem;
+    background-color: rgba(213, 182, 166, 0.8);
+    border: #D5B6A6 1px solid;
+    border-radius: 5px;
+    padding: 15px 25px;
+    position: absolute;
+
+}
+
+.image-button a {
+    text-decoration: none;
+   
+}
+
 
 /* Footer */
 footer {
@@ -105,11 +133,8 @@ footer {
     padding-top: 15px;
     background-color: #ffffff;
 }
-.vinegreen {
-    color: #295900;
-}
 
-#coordinates div{
+.bottom-container div{
     margin-bottom: 16px;
 }
 
@@ -163,7 +188,6 @@ footer {
 
 
 /* Contact us section */
-
 .text-input {
     width: 100%;
     padding: 5px;
@@ -204,6 +228,13 @@ footer {
 
 /* larger or landscape phones (576px or larger) */
 @media screen and (min-width: 576px) {
+    /* Navigation Bar */
+    .nav-item {
+        margin: 0;
+        padding: 0 15px;
+        display: inline;
+        text-align: center;
+    }    
     /* Footer */
     #coordinates > div  {
     display: inline-block;
