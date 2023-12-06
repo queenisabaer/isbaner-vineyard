@@ -18,7 +18,7 @@ body {
 
 h1 {
     margin: 15px 0;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
 }
 
 h1, h2 {
@@ -30,8 +30,7 @@ h1, h2 {
     color: #295900;
 }
 
-/* For footnotes */
-
+/* For footnotes, gloss etc. */
 .gloss {
     font-size: 12px;
 }
@@ -121,7 +120,7 @@ main {
 }
 
 .image-button {
-    font-size: 1.25rem;
+    font-size: 150%;
     background-color: rgba(213, 182, 166, 0.8);
     border: #D5B6A6 1px solid;
     border-radius: 0 25px 25px 0;
@@ -136,7 +135,7 @@ main {
     text-decoration: none;
 }
 
-/* Gallery and Contact */
+/* Gallery and Contact image box */
 #gallery-box {
     background: url(../images/vineyard-keys-february-2017.jpg) no-repeat 33% center/cover;
     width: 100%;
@@ -188,15 +187,14 @@ footer {
 }
 
 #contact {
-    background: url(../images/contact/grapes-in-july-2018.jpg);
-    background-size: cover;
+    background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat center center/cover;
 }
 
 .fieldset {
     background-color: rgba(213, 182, 166, 0.7);
     border-color: #295900;
     margin: 15px;
-    padding: 0 15px;
+    padding: 15px;
 }
 
 .fieldset legend {
@@ -210,17 +208,16 @@ footer {
     margin: 5px;
 }
 
-
 /* Contact us section */
 .text-input {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-    height: 20px;
+    height: 25px;
 }
 
-.contact-information {
-    margin-right: 15px;
+.contact-information, #contact-reasons {
+    margin: 10px 0;
 }
 
 .contact-button {
@@ -230,7 +227,7 @@ footer {
     border-radius: 5px;
     border: 1px solid #ffffff;
     padding: 10px 25px;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 /* Find us section */
@@ -238,7 +235,6 @@ footer {
     width: 50%;
     min-width: 100px;
     float: right;
-    margin: 18px 0;
     border-radius: 5px;
 }
 
@@ -246,7 +242,7 @@ footer {
     width: 50%;
     min-width: 150px;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 /* larger or landscape phones (576px or larger) */
@@ -275,14 +271,10 @@ footer {
 
 /* larger or landscape phones (768px or larger) */
 @media screen and (min-width: 768px) {
-
     #nav-toggle {
         display: none;
-    }   
-}
+    }  
 
-/* laptops (1024px or larger) */
-@media screen and (min-width: 1024px) {
     /* Make fieldsets at contact page appear next to each other */
     .contact-container {
         flex-wrap: nowrap;
@@ -293,8 +285,6 @@ footer {
         flex: 1;
     }
 
-    fieldset {
-        height: 100vh;
-
-    }
 }
+
+/* laptops (1024px or larger) */
