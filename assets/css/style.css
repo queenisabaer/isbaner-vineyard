@@ -104,13 +104,15 @@ main {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    gap: 5px;
 }
 
 /* Hero Image */
 #hero {
     background: url(../images/vinyard-october-2022-hero.jpg) no-repeat center center/cover;
     width: 100%;
-    height: 300px;
+    min-height: 300px;
+    height: 50vh;
     margin-bottom: 5px;
 }
 
@@ -139,13 +141,14 @@ main {
     background: url(../images/vineyard-keys-february-2017.jpg) no-repeat 33% center/cover;
     width: 100%;
     min-height: 200px;
-    margin-right: 5px;
+    height: 50vh;
+    flex: 1;
 }
 
 #contact-box {
     background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat 10% center/cover;
     width: 100%;
-    height: 200px;
+    flex: 1;
 }
 
 /* Footer */
@@ -156,7 +159,7 @@ footer {
 }
 
 .bottom-container div{
-    margin-bottom: 16px;
+    margin-bottom: 5px;
 }
 
 .social-networks {
@@ -268,6 +271,14 @@ footer {
         padding: 0 10px;
     }
 
+}
+
+/* larger or landscape phones (768px or larger) */
+@media screen and (min-width: 768px) {
+
+    #nav-toggle {
+        display: none;
+    }   
 }
 
 /* laptops (1024px or larger) */
