@@ -20,18 +20,20 @@
   <body id="contact">
     <!-- Header Section -->
     <header>
-      <a href="index.html" id="logo">
-        <h1>Isbaner Vineyard</h1>
-      </a>
-      <!-- Navbar -->
-      <nav id="menu">
-        <ul>
-          <li class="nav-item"><a href="index.html">Home</a></li>
-          <li class="nav-item"><a href="about.html">About us</a></li>
-          <li class="nav-item"><a href="gallery.html">Gallery</a></li>
-          <li class="nav-item active"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+        <a href="index.html">
+            <h1 id="logo">Isbaner Vineyard</h1>
+        </a>
+        <!-- Navbar -->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #295900;"></i></label>
+        <nav class="nav-bar">
+            <ul>
+                <li class="nav-item active"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About us</a></li>
+                <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main Section -->
@@ -155,7 +157,14 @@
           <h3>Address</h3>
           <p><address>Langer Berg 0<br>06618 Wethau<br>Germany<br>51°08'26.0"N 11°51'28.9"E</address></p>
           <h3>Direction</h3>
-          <p>Enter <em>Hirtengraben 1, 06618 Wethau</em> in the navigation system and continue straight ahead at the cemetery past the playground until the road bends. Follow the direction of the path and after 50m you have reached our vineyard. It is best to park on the side of the field. </p>
+          <p>Enter <em>Hirtengraben 1, 06618 Wethau</em> in the navigation system and continue straight ahead at the cemetery past the playground until the road bends. Follow the direction of the path and after 50m you have reached our vineyard. It is best to park on the side of the field.</p>
+          <a
+          href="https://maps.app.goo.gl/4XjD9zxRx1GHbCAYA"
+          target="_blank"
+          rel="noopener"
+          aria-label="Find us on Google Maps (opens in a new tab)"
+          ><img src="assets/images/contact/vinyard-location-map-direction.png" alt="Google maps section with pin for the vinyard location and a blue dotted line for direction" id="map-direction">
+          </a>
         </fieldset>
       </section>
     </div>
