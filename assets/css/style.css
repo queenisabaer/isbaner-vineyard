@@ -8,7 +8,6 @@
 }
 
 /* General Styles */
-
 body {
     font-family: 'Nobile', sans-serif;
     background-color: #F2FAEF;
@@ -19,6 +18,7 @@ body {
 
 h1 {
     margin: 15px 0;
+    font-size: 2.5rem;
 }
 
 h1, h2 {
@@ -55,7 +55,6 @@ header a {
 
 #logo {
     color: #295900; 
-    font-size: 2.25rem;
     text-wrap: nowrap;
 }
 
@@ -85,7 +84,6 @@ nav {
 }
 
 /* Navigation Toggle */
-
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -100,7 +98,12 @@ nav {
 
 /* Main Content */
 main {
-    margin-top: 66px;
+    margin-top: 70px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Hero Image */
@@ -108,6 +111,7 @@ main {
     background: url(../images/vinyard-october-2022-hero.jpg) no-repeat center center/cover;
     width: 100%;
     height: 300px;
+    margin-bottom: 5px;
 }
 
 .image-container {
@@ -118,7 +122,7 @@ main {
     font-size: 1.25rem;
     background-color: rgba(213, 182, 166, 0.8);
     border: #D5B6A6 1px solid;
-    border-radius: 5px;
+    border-radius: 0 25px 25px 0;
     padding: 10px 25px;
     position: absolute;
     width: 33%;
@@ -128,9 +132,21 @@ main {
 
 .image-button a {
     text-decoration: none;
-   
 }
 
+/* Gallery and Contact */
+#gallery-box {
+    background: url(../images/vineyard-keys-february-2017.jpg) no-repeat 33% center/cover;
+    width: 100%;
+    min-height: 200px;
+    margin-right: 5px;
+}
+
+#contact-box {
+    background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat 10% center/cover;
+    width: 100%;
+    height: 200px;
+}
 
 /* Footer */
 footer {
@@ -215,7 +231,6 @@ footer {
 }
 
 /* Find us section */
-
 #location-map {
     width: 50%;
     min-width: 100px;
