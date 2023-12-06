@@ -135,7 +135,7 @@ main {
     text-decoration: none;
 }
 
-/* Gallery and Contact image box */
+/* Gallery and Contact image box at index */
 #gallery-box {
     background: url(../images/vineyard-keys-february-2017.jpg) no-repeat 33% center/cover;
     width: 100%;
@@ -180,7 +180,6 @@ footer {
 }
 
 /* Contact Page */
-
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -206,6 +205,11 @@ footer {
 
 .fieldset h2 {
     margin: 5px;
+}
+
+#direction-div {
+    clear: right;
+    margin-top: 15px;
 }
 
 /* Contact us section */
