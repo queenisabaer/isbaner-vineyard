@@ -135,6 +135,10 @@ main {
     text-decoration: none;
 }
 
+.image-button a:hover {
+    color: #ffffff;
+}
+
 /* Gallery and Contact image box at index */
 #gallery-box {
     background: url(../images/vineyard-keys-february-2017.jpg) no-repeat 33% center/cover;
