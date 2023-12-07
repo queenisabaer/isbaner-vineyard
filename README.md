@@ -33,7 +33,7 @@ Frequent users are interested in staying in touch with the owners or want to kno
 -   Imagery:
 All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty.
 -   Colour Scheme:
-The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photo of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields. 
+The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photograph of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields. 
 -   Typography: 
 Since growing wine is a very old and respected tradition, a handwritten-looking font was chosen as the font for the logo and headings: [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine)
 > Tangerine is a calligraphic typeface inspired by many italic chancery hands from the 16th and 17th centuries. *Google Fonts*
@@ -74,8 +74,7 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 - __Gallery Page__
 
     - The Gallery page will provide users with images to see what happens on the vineyard spread over the year.
-    - flip cards with more information, like a subtitle?
-
+    - To create the responsive gallery I used the tutorial and css code from [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
        ![Gallery Page]()
 
 - __Contact Page__
@@ -97,7 +96,7 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 -   To import fonts into the style.css: [Google Fonts:](https://fonts.google.com/)
--   to add icons: [Font Awesome:](https://fontawesome.com/)
+-   To add icons: [Font Awesome:](https://fontawesome.com/)
 -   [Git:](https://git-scm.com/) 
 -   [GitHub:](https://github.com/)
 -   The wireframes were created with [Balsamiq:](https://balsamiq.com/)
@@ -149,7 +148,7 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
 ### Code
 
-- xxx
+- The css code for the responsive picture gallery was taken from the tutorial bei [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
 
 ### Media 
 
