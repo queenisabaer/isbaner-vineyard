@@ -159,24 +159,21 @@ main {
 }
 
 /* Gallery */
-
 #heading-gallery {
     font-size: 150%;
 }
 
-#gallery img {
+.gallery img {
     width: 100%;
 
 }
 
-#gallery {
-    line-height: 0;
-}
-
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px,2.5fr));
     grid-gap: 5px;
+    justify-items: center;
+    margin-bottom: 5px;
 }
 
 /* Contact Page */
