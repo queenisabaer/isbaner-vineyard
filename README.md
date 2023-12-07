@@ -1,9 +1,9 @@
 # Isbaner vineyard
 _HTML and CSS Essentials Project Portfolio - Code Institute_
 
-View deployed site here:()
+View deployed site [here.](https://queenisabaer.github.io/isbaner-vineyard/)
 
-Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The site is targeted towards interested parties, friends and family who want to stay in touch with the owners of the vineyard, visit them and keep updated through the year. Furthermore it will be useful for people who want to know something about the Gutedel grape and the region Wethau, Saale-Unstrut.  
+Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The site is targeted towards interested parties, friends and family who want to know more about the vineyard, stay in touch with the owners or visit them and keep updated through the year. Furthermore it will be useful for people who want to know something about the Gutedel grape and the region Wethau, Saale-Unstrut.  
 
 ## Table of contents
 * [User Experience (UX)](#user-experience) 
@@ -18,17 +18,21 @@ Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The 
 
 ### User stories
 Goals for:
- 
-  - First Time visitor: learn more about the isbaner vineyard, where it is located and what kind of grape is planted, 
-  - Returning visitor: visit the vineyard, book a vine tasting, get a guided tour
-  - Frequent user: keep in touch, stay updated through new photos on the gallery,
-
+-   First Time visitor: 
+An overview of the vineyard should be given to first-time visitors. Especially when the owners meet new people and tell them about their hobby, they are of course very curious and want to learn more about the vineyard, the grapes and the winegrowers association. Furthermore it's common for them to ask for pictures of the vineyard and garden. It is therefore important to get to the most important content quickly. On the homepage, the three image boxes symbolize the components of the homepage. Clicking on the buttons takes you to the corresponding content. 
+-   Returning visitor: 
+Returning visitors may want to visit the vineyard or get in touch with the Isbaner family. So the contact area allows them to contact the owners and, for instance, book a wine tasting or a guided tour.
+-   Frequent user: keep in touch, stay updated through new photos on the gallery,
+Frequent users are interested in staying in touch with the owners or want to know what it looks like on the vineyard and what’s new, especially the gallery is interesting for them.
 
 ## Design
 
--   Imagery,
--   Colour Scheme should match the vineyard theme - wooden, green, earth colours
--   Typography: Google Fonts - [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) for text content, [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine) for Main Headings and quotes
+-   Imagery:
+All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty.
+-   Colour Scheme:
+The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photo of the background image at contact.html. Since green also dominates in the vineyard, this has become the primary color. The brown tones set accents primarily as a background for buttons and text fields. 
+-   Typography: 
+Google Fonts - [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) for text content, [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine) for Main Headings and quotes
    
 
 
