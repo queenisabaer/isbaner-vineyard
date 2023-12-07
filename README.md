@@ -73,9 +73,9 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
 - __Gallery Page__
 
-    - The Gallery page will provide users with images to see what happens on the vineyard spread over the year.
+    - The Gallery page will provide users with photographs to see what happens on the vineyard spread over a year.
     - To create the responsive gallery I used the tutorial and css code from [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
-       ![Gallery Page]()
+       ![Gallery Page](https://queenisabaer.github.io/isbaner-vineyard/gallery.html)
 
 - __Contact Page__
 
@@ -113,7 +113,7 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
     - result for index.html
       ![HTML results index]()
-    - result for gutedel.html
+    - result for about.html
       ![HTML results gutedel]()
     - result for gallery.html
       ![HTML results gallery]()    
@@ -148,7 +148,7 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
 ### Code
 
-- The css code for the responsive picture gallery was taken from the tutorial bei [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
+- The css code for the responsive picture gallery grid was taken from the tutorial bei [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
 
 ### Media 
 

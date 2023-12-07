@@ -170,6 +170,7 @@ main {
 
 .grid-container {
     display: grid;
+    /* Used a template by Rüdiger Alte for the grid */
     grid-template-columns: repeat(auto-fit, minmax(300px,2.5fr));
     grid-gap: 5px;
     justify-items: center;
