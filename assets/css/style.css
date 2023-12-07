@@ -26,6 +26,11 @@ h1, h2 {
     font-family: 'tangerine', cursive;
 }
 
+h2 {
+    margin: 5px;
+    font-size: 150%;
+}
+
 .vinegreen {
     color: #295900;
 }
@@ -96,7 +101,7 @@ nav {
 
 /* Main Content */
 main {
-    margin-top: 70px;
+    margin-top: 75px;
 }
 
 .flex-container {
@@ -138,7 +143,7 @@ main {
     color: #ffffff;
 }
 
-/* Gallery and Contact image box at index */
+/* Section with image box and button to gallery and contact page at index */
 #gallery-box {
     background: url(../images/vineyard-keys-february-2017.jpg) no-repeat 33% center/cover;
     width: 100%;
@@ -153,33 +158,25 @@ main {
     flex: 1;
 }
 
-/* Footer */
-footer {
-    margin-top: auto;
-    padding-top: 15px;
-    background-color: #ffffff;
+/* Gallery */
+
+#heading-gallery {
+    font-size: 150%;
 }
 
-.bottom-container div{
-    margin-bottom: 5px;
+#gallery img {
+    width: 100%;
+
 }
 
-.social-networks {
-    text-decoration: none;
-    list-style-type: none;
-    padding-left: 0;
+#gallery {
+    line-height: 0;
 }
 
-.social-networks li {
-    display: inline;
-    padding: 10px;
-    font-size: 110%;
-}
-
-.bottom-container {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 5px;
 }
 
 /* Contact Page */
@@ -200,14 +197,10 @@ footer {
 }
 
 .fieldset legend {
+    font-size: 150%;
     background-color: #295900;
     color: #ffffff;
     padding: 0 15px;
-    font-size: 150%;
-}
-
-.fieldset h2 {
-    margin: 5px;
 }
 
 #direction-div {
@@ -259,6 +252,35 @@ footer {
     min-width: 150px;
     border-radius: 5px;
     margin: 15px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding-top: 15px;
+    background-color: #ffffff;
+}
+
+.bottom-container div{
+    margin-bottom: 5px;
+}
+
+.social-networks {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-networks li {
+    display: inline;
+    padding: 10px;
+    font-size: 110%;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 /* larger or landscape phones (576px or larger) */
