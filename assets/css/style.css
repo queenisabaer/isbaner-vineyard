@@ -92,7 +92,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /* Main Content */
@@ -263,14 +263,7 @@ footer {
 }
 
 /* larger or landscape phones (576px or larger) */
-@media screen and (min-width: 576px) {
-    /* Navigation Bar */
-    .nav-item {
-        margin: 0;
-        padding: 0 15px;
-        display: inline;
-        text-align: center;
-    }    
+@media screen and (min-width: 576px) {  
     /* Footer */
     #coordinates > div  {
     display: inline-block;
@@ -288,7 +281,15 @@ footer {
 
 /* larger or landscape phones (768px or larger) */
 @media screen and (min-width: 768px) {
-    #nav-toggle {
+    /* Make navigation bar appear in one line*/
+    nav {
+            margin: 0;
+            padding: 0 15px;
+            display: inline;
+            text-align: center;
+    }  
+
+    .nav-toggle-label {
         display: none;
     }  
 
