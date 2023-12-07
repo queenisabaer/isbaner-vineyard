@@ -1,4 +1,5 @@
 # Isbaner vineyard
+
 _HTML and CSS Essentials Project Portfolio - Code Institute_
 
 View deployed site [here.](https://queenisabaer.github.io/isbaner-vineyard/)
@@ -6,6 +7,7 @@ View deployed site [here.](https://queenisabaer.github.io/isbaner-vineyard/)
 Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The site is targeted towards interested parties, friends and family who want to know more about the vineyard, stay in touch with the owners or visit them and keep updated through the year. Furthermore it will be useful for people who want to know something about the Gutedel grape and the region Wethau, Saale-Unstrut.  
 
 ## Table of contents
+
 * [User Experience (UX)](#user-experience) 
 * [Features](#features)
 * [Design](#design)
@@ -17,6 +19,7 @@ Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The 
 ## User Experience (UX)
 
 ### User stories
+
 Goals for:
 -   First Time visitor: 
 An overview of the vineyard should be given to first-time visitors. Especially when the owners meet new people and tell them about their hobby, they are of course very curious and want to learn more about the vineyard, the grapes and the winegrowers association. Furthermore it's common for them to ask for pictures of the vineyard and garden. It is therefore important to get to the most important content quickly. On the homepage, the three image boxes symbolize the components of the homepage. Clicking on the buttons takes you to the corresponding content. 
@@ -30,11 +33,11 @@ Frequent users are interested in staying in touch with the owners or want to kno
 -   Imagery:
 All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty.
 -   Colour Scheme:
-The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photo of the background image at contact.html. Since green also dominates in the vineyard, this has become the primary color. The brown tones set accents primarily as a background for buttons and text fields. 
+The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photo of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields. 
 -   Typography: 
-Google Fonts - [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) for text content, [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine) for Main Headings and quotes
-   
-
+Since growing wine is a very old and respected tradition, a handwritten-looking font was chosen as the font for the logo and headings: [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine)
+> Tangerine is a calligraphic typeface inspired by many italic chancery hands from the 16th and 17th centuries. *Google Fonts*
+The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was selcted for text content. It was important that this font creates a contrast to logo and heading. It should therefore be clear, simple and easy to read on all screen sizes. 
 
 ### Wireframes
 
@@ -98,8 +101,9 @@ Google Fonts - [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) f
 -   [Git:](https://git-scm.com/) 
 -   [GitHub:](https://github.com/)
 -   The wireframes were created with [Balsamiq:](https://balsamiq.com/)
--   Color scheme wsa created with [Coloors](https://coolors.co/image-picker)
--   ???
+-   Color scheme was created with [Coloors](https://coolors.co/image-picker)
+-   The pictures were cropped and resized with [iLoveIMG](https://www.iloveimg.com/) 
+-   
     
 
 ## Testing
@@ -140,15 +144,19 @@ Google Fonts - [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) f
 ## Credits 
 
 ### Content 
+
 - xxx
 
 ### Code
+
 - xxx
 
 ### Media 
+
 - xxx
 
 ### ReadMe
+
 - A big thank you to ![Kera Cudmore](https://github.com/kera-cudmore) and all of her tips on what makes a good README. 
 
 
