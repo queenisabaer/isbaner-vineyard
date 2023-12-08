@@ -172,6 +172,18 @@ main {
     align-items: center;
 }
 
+.row-image {
+    align-self: flex-start;
+}
+
+.row-text {
+    padding: 0 15px;
+}
+
+.row-text h3 {
+    margin-bottom: 5px;
+}
+
 .row-image img {
     max-width: 100%;
     padding: 0 15px;
