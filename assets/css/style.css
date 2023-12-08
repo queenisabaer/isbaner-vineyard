@@ -328,19 +328,6 @@ footer {
 
 /* larger or landscape phones (576px or larger) */
 @media screen and (min-width: 576px) {  
-    /* About us page */
-    .about-row {
-        flex-direction: row;
-    }
-
-    .row-reverse {
-        flex-direction: row-reverse;
-    }
-
-    .row-text {
-        text-align: center;
-    }
-
     /* Footer */
     #coordinates > div  {
     display: inline-block;
@@ -374,6 +361,19 @@ footer {
         display: none;
     }  
 
+    /* About us page */
+    .about-row {
+            flex-direction: row;
+    }
+    
+    .row-reverse {
+        flex-direction: row-reverse;
+    }
+    
+    .row-text {
+        text-align: center;
+    }
+
     /* Make fieldsets at contact page appear next to each other */
     .contact-container {
         flex-wrap: nowrap;
@@ -388,6 +388,7 @@ footer {
 
 /* laptops (1024px or larger) */
 @media screen and (min-width: 1024px) {
+    /* Making the hero image heigh enough so it still looks nice */
     #hero {
         min-height: 500px;
     }
