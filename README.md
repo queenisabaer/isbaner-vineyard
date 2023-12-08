@@ -21,23 +21,25 @@ Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The 
 ### User stories
 
 Goals for:
--   First Time visitor: 
+-   **First Time visitor:** 
 An overview of the vineyard should be given to first-time visitors. Especially when the owners meet new people and tell them about their hobby, they are of course very curious and want to learn more about the vineyard, the grapes that are planted and the winegrowers association of which the owners are member of. Furthermore it's common for them to ask for pictures of the vineyard and garden. It is therefore important to get to the most important content quickly. On the homepage, the three image boxes symbolize the components of the homepage. Clicking on the buttons takes you to the corresponding content. 
--   Returning visitor: 
+-   **Returning visitor:** 
 Returning visitors may want to visit the vineyard or get in touch with the Isbaner family. So the contact area allows them to contact the owners and, for instance, book a wine tasting or a guided tour.
--   Frequent user: 
+-   **Frequent user:** 
 Frequent users are interested in staying in touch with the owners or want to know what it looks like on the vineyard and what’s new, especially the gallery is interesting for them.
 
 ## Design
 
--   Imagery:
+-   **Imagery:**
 All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty.
--   Colour Scheme:
+-   **Colour Scheme:**
 The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photograph of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields. 
 ![Color palette](assets/images/readme/grapes-coloors-palette.png)
--   Typography: 
+-   **Typography:** 
 Since growing wine is a very old and respected tradition, a handwritten-looking font was chosen as the font for the logo and headings: [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine)
-> Tangerine is a calligraphic typeface inspired by many italic chancery hands from the 16th and 17th centuries. *Google Fonts*
+>
+> Tangerine is a calligraphic typeface inspired by many italic chancery hands from the 16th and 17th centuries. *(Google Fonts)*
+>
 The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was selcted for text content. It was important that this font creates a contrast to logo and heading. It should therefore be clear, simple and easy to read on all screen sizes. 
 
 ### Wireframes
@@ -81,7 +83,7 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
 - __About us Page__
 
-    - The About us page includes various information about the history of the vineyard, the grape Gutedel and the region Wethau
+    - The About us page includes various information about the history of the vineyard, the grape chasselas and the region Wethau
 
        ![About us Page]()
 
@@ -170,7 +172,7 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
 ### ReadMe
 
-- A big thank you to ![Kera Cudmore](https://github.com/kera-cudmore) and all of her tips on what makes a good README. 
+- A big thank you to [Kera Cudmore](https://github.com/kera-cudmore) and all of her tips on what makes a good README. 
 
 
 ### Acknowledgments
