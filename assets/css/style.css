@@ -361,7 +361,7 @@ footer {
         display: none;
     }  
 
-    /* About us page */
+    /* About us page - make the images float next to the text */
     .about-row {
             flex-direction: row;
     }
