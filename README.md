@@ -43,9 +43,20 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 ### Wireframes
 
 - index.html
-![Desktop wireframe](assets/images/wireframes/isbaner%20vineyard%20desktop%20index.png)
+![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-index.png)
+![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-index.png)
 
-     
+- about-us.html
+![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-about-us.png)
+![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-about-us.png)
+
+- gallery.html
+![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-gallery.png)
+![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-gallery.png)
+
+- contact.html
+![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-contact.png)
+![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-contact.png)
 
 ## Features
 
