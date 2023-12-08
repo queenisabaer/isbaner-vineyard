@@ -22,10 +22,10 @@ Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The 
 
 Goals for:
 -   First Time visitor: 
-An overview of the vineyard should be given to first-time visitors. Especially when the owners meet new people and tell them about their hobby, they are of course very curious and want to learn more about the vineyard, the grapes and the winegrowers association. Furthermore it's common for them to ask for pictures of the vineyard and garden. It is therefore important to get to the most important content quickly. On the homepage, the three image boxes symbolize the components of the homepage. Clicking on the buttons takes you to the corresponding content. 
+An overview of the vineyard should be given to first-time visitors. Especially when the owners meet new people and tell them about their hobby, they are of course very curious and want to learn more about the vineyard, the grapes that are planted and the winegrowers association of which the owners are member of. Furthermore it's common for them to ask for pictures of the vineyard and garden. It is therefore important to get to the most important content quickly. On the homepage, the three image boxes symbolize the components of the homepage. Clicking on the buttons takes you to the corresponding content. 
 -   Returning visitor: 
 Returning visitors may want to visit the vineyard or get in touch with the Isbaner family. So the contact area allows them to contact the owners and, for instance, book a wine tasting or a guided tour.
--   Frequent user: keep in touch, stay updated through new photos on the gallery,
+-   Frequent user: 
 Frequent users are interested in staying in touch with the owners or want to know what it looks like on the vineyard and what’s new, especially the gallery is interesting for them.
 
 ## Design
@@ -34,6 +34,7 @@ Frequent users are interested in staying in touch with the owners or want to kno
 All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty.
 -   Colour Scheme:
 The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photograph of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields. 
+![Color palette](assets/images/readme/grapes-coloors-palette.png)
 -   Typography: 
 Since growing wine is a very old and respected tradition, a handwritten-looking font was chosen as the font for the logo and headings: [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine)
 > Tangerine is a calligraphic typeface inspired by many italic chancery hands from the 16th and 17th centuries. *Google Fonts*
@@ -41,7 +42,9 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
 ### Wireframes
 
-    -   
+- index.html
+![Desktop wireframe](assets/images/wireframes/isbaner%20vineyard%20desktop%20index.png)
+
      
 
 ## Features
@@ -75,7 +78,7 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
     - The Gallery page will provide users with photographs to see what happens on the vineyard spread over a year.
     - To create the responsive gallery I used the tutorial and css code from [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
-       ![Gallery Page](https://queenisabaer.github.io/isbaner-vineyard/gallery.html)
+       ![Gallery Page]()
 
 - __Contact Page__
 
