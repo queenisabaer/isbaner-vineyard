@@ -21,7 +21,7 @@ Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The 
 ### User stories
 
 Goals for:
--   **First Time visitor:** 
+-   **First time visitor:** 
 An overview of the vineyard should be given to first-time visitors. Especially when the owners meet new people and tell them about their hobby, they are of course very curious and want to learn more about the vineyard, the grapes that are planted and the winegrowers association of which the owners are member of. Furthermore it's common for them to ask for pictures of the vineyard and garden. It is therefore important to get to the most important content quickly. On the homepage, the three image boxes symbolize the components of the homepage. Clicking on the buttons takes you to the corresponding content. 
 -   **Returning visitor:** 
 Returning visitors may want to visit the vineyard or get in touch with the Isbaner family. So the contact area allows them to contact the owners and, for instance, book a wine tasting or a guided tour.
@@ -40,7 +40,7 @@ Since growing wine is a very old and respected tradition, a handwritten-looking 
 >
 > Tangerine is a calligraphic typeface inspired by many italic chancery hands from the 16th and 17th centuries. *(Google Fonts)*
 >
-The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was selcted for text content. It was important that this font creates a contrast to logo and heading. It should therefore be clear, simple and easy to read on all screen sizes. 
+The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was selected for text content. It was important that this font creates a contrast to logo and heading. It should therefore be clear, simple and easy to read on all screen sizes. 
 
 ### Wireframes
 

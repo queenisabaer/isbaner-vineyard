@@ -28,7 +28,8 @@ h1, h2 {
 
 h2 {
     margin: 5px;
-    font-size: 150%;
+    font-size: 2.5rem;
+    padding-left: 15px;
 }
 
 .vinegreen {
@@ -119,12 +120,12 @@ main {
     margin-bottom: 5px;
 }
 
-.image-container {
+.image-container, .about-container {
     position: relative;
 }
 
 .image-button {
-    font-size: 150%;
+    
     background-color: rgba(213, 182, 166, 0.8);
     border: #D5B6A6 1px solid;
     border-radius: 0 25px 25px 0;
@@ -156,6 +157,38 @@ main {
     background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat 10% center/cover;
     width: 100%;
     flex: 1;
+}
+
+/* About us page*/
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-image img {
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.row-text, .row-image {
+    flex: 1;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-button a:hover {
+    text-decoration: none;
+    color: #295900;
 }
 
 /* Gallery */
@@ -195,10 +228,9 @@ main {
 }
 
 .fieldset legend {
-    font-size: 150%;
     background-color: #295900;
     color: #ffffff;
-    padding: 0 15px;
+    padding: 2px 15px 2px 0;
 }
 
 #direction-div {
@@ -283,6 +315,12 @@ footer {
 
 /* larger or landscape phones (576px or larger) */
 @media screen and (min-width: 576px) {  
+    /* About us page */
+    .about-row {
+        flex-direction: row;
+    }
+
+
     /* Footer */
     #coordinates > div  {
     display: inline-block;
