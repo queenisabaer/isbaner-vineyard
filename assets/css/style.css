@@ -14,6 +14,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* Limit how much body can grow */
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -215,7 +219,6 @@ main {
 
 .gallery img {
     width: 100%;
-
 }
 
 .grid-container {
@@ -343,7 +346,6 @@ footer {
     .coordinates {
         padding: 0 10px;
     }
-
 }
 
 /* larger or landscape phones (768px or larger) */
