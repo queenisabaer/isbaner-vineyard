@@ -60,6 +60,9 @@ header {
     z-index: 13;
     background-color: #ffffff;
     box-shadow: 0 1px 1px #295900;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header a {
@@ -236,6 +239,12 @@ main {
     flex-wrap: wrap;
 }
 
+#contact-form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #contact {
     background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat center center/cover;
 }
@@ -292,6 +301,7 @@ main {
 #location-map {
     width: 50%;
     min-width: 100px;
+    max-width: 350px;
     float: right;
     border-radius: 5px;
 }
@@ -299,6 +309,7 @@ main {
 #map-direction {
     width: 50%;
     min-width: 150px;
+    max-width: 400px;
     border-radius: 5px;
     margin: 15px 0;
 }
