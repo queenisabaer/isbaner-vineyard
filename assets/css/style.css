@@ -170,7 +170,7 @@ main {
     flex: 1;
 }
 
-/* About us page*/
+/* About us page */
 .about-container {
     display: flex;
     justify-content: space-between;
@@ -295,6 +295,10 @@ main {
     background-color: #ffffff;
     color: #295900;
     border: #295900 1px solid;
+}
+
+.contact-information > label, .contact-information > input {
+    display: block;
 }
 
 /* Find us section */
