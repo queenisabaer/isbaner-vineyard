@@ -76,10 +76,11 @@ header a {
 
 /* Navigation bar */
 nav {
-    position: absolut;
-    width: 100%;
+    width: fit-content;
+    justify-content: end;
     display: none;
     top: 100%;
+    margin-left: auto;
 }
 
 .nav-item a {
@@ -367,14 +368,12 @@ footer {
 @media screen and (min-width: 768px) {
     /* Make navigation bar appear in one line*/
     nav {
-            margin: 0;
-            padding: 0 15px;
-            display: inline;
-            text-align: center;
+        display: flex;
+        text-align: center;
     }
     
     .nav-item {
-        display: inline;
+      display: inline;
     }
 
     .nav-toggle-label {
