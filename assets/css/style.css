@@ -36,6 +36,10 @@ h2 {
     color: #295900;
 }
 
+p {
+    line-height: 25px;
+}
+
 /* For footnotes, gloss etc. */
 .gloss {
     font-size: 12px;
