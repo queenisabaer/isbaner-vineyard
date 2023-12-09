@@ -141,7 +141,7 @@ main {
     background-color: rgba(213, 182, 166, 0.8);
     border: #D5B6A6 1px solid;
     border-radius: 0 25px 25px 0;
-    padding: 10px 25px;
+    padding: 10px 15px;
     position: absolute;
     width: 33%;
     min-width: fit-content;
@@ -154,6 +154,11 @@ main {
 
 .image-button a:hover {
     color: #ffffff;
+}
+
+.image-button h2 {
+    padding-left: 0;
+    text-wrap: nowrap;
 }
 
 /* Section with image box and button to gallery and contact page at index */
@@ -194,7 +199,7 @@ main {
 }
 
 .row-text h3 {
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
 .row-image img {
