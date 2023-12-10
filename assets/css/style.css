@@ -103,6 +103,8 @@ nav {
 /* Navigation Toggle */
 #nav-toggle:checked~nav {
     display: block;
+    line-height: 25px;
+    margin-bottom: 15px;
 }
 
 #nav-toggle {
