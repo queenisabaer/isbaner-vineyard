@@ -4,7 +4,7 @@ _HTML and CSS Essentials Project Portfolio - Code Institute_
 
 View deployed site [here.](https://queenisabaer.github.io/isbaner-vineyard/)
 
-Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The site is targeted towards interested parties, friends and family who want to know more about the vineyard, stay in touch with the owners or visit them and keep updated through the year. Furthermore it will be useful for people who want to know something about the Gutedel grape and the region Wethau, Saale-Unstrut.  
+Isbaner vineyard is a site dedicated to the vineyard of the Isbaner family. The site is targeted towards interested parties, friends and family who want to know more about the vineyard, stay in touch with the owners or visit them and keep updated through the year. Furthermore it will be useful for people who want to know something about the Gutedel grape and the region Wethau, Saale-Unstrut.  
 
 ## Table of contents
 
@@ -22,7 +22,7 @@ Isbaner vineyard is a site dedicated to the vineyard of the isbaner family. The 
 
 Goals for:
 -   **First time visitor:** 
-An overview of the vineyard should be given to first-time visitors. Especially when the owners meet new people and tell them about their hobby, they are of course very curious and want to learn more about the vineyard, the grapes that are planted and the winegrowers association of which the owners are member of. Furthermore it's common for them to ask for pictures of the vineyard and garden. It is therefore important to get to the most important content quickly. On the homepage, the three image boxes symbolize the components of the homepage. Clicking on the buttons takes you to the corresponding content. 
+An overview of the vineyard should be given to first-time visitors. Especially when the owners meet new people and tell them about their hobby, they are of course very curious and want to learn more about the vineyard, the grapes that are planted and the winegrowers association of which the owners are member of. Furthermore it's common for them to ask for pictures of the vineyard and garden. Quick access to the most important information is therefore essential. On the homepage, the three image boxes symbolize the components of the homepage. Clicking on the buttons takes you to the corresponding content. 
 -   **Returning visitor:** 
 Returning visitors may want to visit the vineyard or get in touch with the Isbaner family. So the contact area allows them to contact the owners and, for instance, book a wine tasting or a guided tour.
 -   **Frequent user:** 
@@ -31,28 +31,31 @@ Frequent users are interested in staying in touch with the owners or want to kno
 ## Design
 
 -   **Imagery:**
-All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty.
+All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty. 
 -   **Colour Scheme:**
 The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photograph of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields. 
 ![Color palette](assets/images/readme/grapes-coloors-palette.png)
 -   **Typography:** 
+The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was selected for text content. It was important that this font creates a contrast to logo and heading. It should therefore be clear, simple and easy to read on all screen sizes. 
 Since growing wine is a very old and respected tradition, a handwritten-looking font was chosen as the font for the logo and headings: [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine)
 >
 > Tangerine is a calligraphic typeface inspired by many italic chancery hands from the 16th and 17th centuries. *(Google Fonts)*
->
-The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was selected for text content. It was important that this font creates a contrast to logo and heading. It should therefore be clear, simple and easy to read on all screen sizes. 
+> 
 
 ### Wireframes
 
-- index.html
+### index.html  
+For simplicity's sake the logo has been left in the navigation bar. In addition, the buttons have been moved to the top left of the images to avoid covering the photos. 
 ![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-index.png)
 ![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-index.png)
 
-- about-us.html
+### about-us.html
+
 ![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-about-us.png)
 ![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-about-us.png)
 
-- gallery.html
+### gallery.html
+The gallery was created without caption. This is a feature I would like to integrate in the future. 
 ![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-gallery.png)
 ![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-gallery.png)
 
@@ -64,11 +67,11 @@ The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was sel
 
 ### Existing Features
 
-- __Navigation Bar__
+Every page contains a responsive navigation bar supporting easy navigation. On small screens (e.g. mobile devices) it will become a clickable hamburger menu. To make it easier for users to know where they are, the current page is underlined. 
 
-    - 
-
-      ![Navbar]()
+![Navbar on mobile devices](assets/images/readme/navigation-mobile.png)
+![Navbar when clicked on hamburger menu on a mobile device](assets/images/readme/navigation-mobile-toggle.png)
+![Navbar ob tablets and larger screens](assets/images/readme/navigation-desktop.png)
     
 
 - __Xxx__
