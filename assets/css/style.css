@@ -63,6 +63,7 @@ header {
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    flex-wrap: wrap;
 }
 
 header a {
@@ -79,8 +80,8 @@ nav {
     width: fit-content;
     justify-content: end;
     display: none;
-    top: 100%;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-item a {
@@ -110,6 +111,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 1.5rem;
+    margin-left: 30px;
 }
 
 /* Main Content */
@@ -375,6 +377,7 @@ footer {
     nav {
         display: flex;
         text-align: center;
+        margin-right: 0;
     }
     
     .nav-item {
