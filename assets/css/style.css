@@ -217,14 +217,19 @@ main {
     flex: 1;
 }
 
-.contact-button a {
-    text-decoration: none;
-    color: #ffffff;
+.row-text p {
+    margin-bottom: 15px;
 }
 
-.contact-button a:hover {
-    text-decoration: none;
+.about-links{
     color: #295900;
+    font-size: 115%;
+    text-decoration: none;
+}
+
+.row-text a:hover {
+
+    color: #D5B6A6;
 }
 
 /* Gallery */
