@@ -98,7 +98,7 @@ The footer stays on the bottom of every page and features clickable social media
 - __Hero image__
 
 The hero image on the main page shows a lovely view over the vineyard. This is intended to convey the beauty of the vineyard directly to the user. In the upper left corner there is a link button that points to the about us page. The button was moved to the side, unlike originally planned, so that the image is not disturbed to.
-![Hero image](assets/images/readme/hero-image.png)
+![Hero image](assets/images/readme/hero-image.png)<br>
 Below the hero image there are two image containers that refer to the other subpages of the website. They were adapted to the layout of the hero image. 
 ![Image container main page](assets/images/readme/image-container-main.png)
 
@@ -117,7 +117,7 @@ To create the responsive gallery I used the tutorial and css code for a grid gal
 - __Contact Page__
 
 The contact page contains two areas. The first offers a contact form that users can complete to get in touch with the owners of the vineyard. The user is asked to enter their first name, last name and e-mail address when sending a message. This information is mandatory. After submitting the form, a new tab with the results are displayed. Currently it shows the formdump.codeinstitute.net page with the determined form data. 
-![Contact fieldset](assets/images/readme/contact-fieldset.png)
+![Contact fieldset](assets/images/readme/contact-fieldset.png)<br>
 The second area provides directions to the vineyard. Both images are screenshots from google as in germany it is not permitted to use the interactive google map due to data security concerns. However, clicking on the images takes the user to the Google Maps page in a new tab.
 ![Find us fieldset](assets/images/readme/find-us-fieldset.png)
 
@@ -136,10 +136,10 @@ The second area provides directions to the vineyard. Both images are screenshots
 -   [Font Awesome](https://fontawesome.com/) was used to add icons.
 -   [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
 -   [GitHub](https://github.com/) was used to save and store the files for the website.
--   The wireframes were designed with [Balsamiq](https://balsamiq.com/)
--   Color scheme was created with [Coloors](https://coolors.co/image-picker)
--   The pictures were cropped and resized with [iLoveIMG](https://www.iloveimg.com/) 
--   The responsive mockup was created with [Am I Responsive](https://ui.dev/amiresponsive)
+-   [Balsamiq](https://balsamiq.com/) was used to design the wireframes.
+-   [Coloors](https://coolors.co/image-picker) was used to create the color scheme.
+-   [iLoveIMG](https://www.iloveimg.com/) was used to cropp and resize the images.
+-   [Am I Responsive](https://ui.dev/amiresponsive) was used to display the website on different devices. 
 
 ## Testing
 
