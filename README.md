@@ -147,10 +147,12 @@ The second area provides directions to the vineyard. Both images are screenshots
 
 - [HTML Validator](https://validator.w3.org/)
 
-    - result for index.html
-      ![HTML results index]()
+    - result for index.html<br>
+      First I had an error because my semantics of the h2/button element weren't correct. No errors or warnings were found after fixing this problem.
+      ![HTML results index with errors](assets/images/readme/html-validator-errors-index.png)
+      ![HTML results index](assets/images/readme/html-validator-index.png)
     - result for about.html
-      ![HTML results gutedel]()
+      ![HTML results about us](/assets/images/readme/)
     - result for gallery.html
       ![HTML results gallery]()    
     - result for contact.html
