@@ -72,7 +72,7 @@ header a {
 
 #logo {
     color: #295900; 
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 /* Navigation bar */
@@ -162,7 +162,7 @@ main {
 
 .image-button h2 {
     padding-left: 0;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 /* Section with image box and button to gallery and contact page at index */
