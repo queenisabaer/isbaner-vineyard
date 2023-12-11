@@ -6,11 +6,13 @@ View deployed site [here.](https://queenisabaer.github.io/isbaner-vineyard/)
 
 Isbaner vineyard is a site dedicated to the vineyard of the Isbaner family. The site is targeted towards interested parties, friends and family who want to know more about the vineyard, stay in touch with the owners or visit them and keep updated through the year. Furthermore it will be useful for people who want to know something about the Gutedel grape and the region Wethau, Saale-Unstrut.  
 
+![Responsive Mockup](assets/images/readme/am-i-responsive.png)
+
 ## Table of contents
 
 * [User Experience (UX)](#user-experience) 
-* [Features](#features)
 * [Design](#design)
+* [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -44,85 +46,100 @@ Since growing wine is a very old and respected tradition, a handwritten-looking 
 
 ### Wireframes
 
-### index.html  
+<details>
+<summary> index.html </summary>
+<br>
 For simplicity's sake the logo has been left in the navigation bar. In addition, the buttons have been moved to the top left of the images to avoid covering the photos. 
+
 ![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-index.png)
 ![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-index.png)
+</details>
 
-### about-us.html
+<details>
+<summary> about-us.html </summary>
+<br>
 
 ![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-about-us.png)
 ![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-about-us.png)
+</details>
 
-### gallery.html
+<details>
+<summary> gallery.html </summary>
+<br>
+
 The gallery was created without caption. This is a feature I would like to integrate in the future. 
 ![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-gallery.png)
 ![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-gallery.png)
+</details>
 
-- contact.html
+<details>
+<summary> contact.html </summary>
+<br>
+
 ![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-contact.png)
 ![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-contact.png)
+</details>
 
 ## Features
 
 ### Existing Features
 
-Every page contains a responsive navigation bar supporting easy navigation. On small screens (e.g. mobile devices) it will become a clickable hamburger menu. To make it easier for users to know where they are, the current page is underlined. 
+All the pages were created with a mobile first approach and are made responsive. To ensure that the layout of the pages remains consistent even on very large screens, the text body has been given a maximum width and a margin on both sides.  
+Every page contains a responsive navigation bar on the top with a logo on the left side and the navigation on the right that supports easy navigation. On small screens (e.g. mobile devices) the navigation will become a clickable burger toggler. To make it easier for users to know where they are on the website, the current page is underlined. 
 
 ![Navbar on mobile devices](assets/images/readme/navigation-mobile.png)
 ![Navbar when clicked on hamburger menu on a mobile device](assets/images/readme/navigation-mobile-toggle.png)
 ![Navbar ob tablets and larger screens](assets/images/readme/navigation-desktop.png)
-    
 
-- __Xxx__
+The footer stays on the bottom of every page and features clickable social media icons and the coordinates of the vineyard, which act as a link to google maps. All links on the footer are opened in a new tab.
+![Footer on mobile devices](assets/images/readme/footer-mobile.png)
+![Footer on desktop](assets/images/readme/footer-desktop.png)
 
-    - 
+- __Hero image__
 
-- __Footer__
-
-    - Address & Social Media
-
-      ![Footer]()
+The hero image on the main page shows a lovely view over the vineyard. This is intended to convey the beauty of the vineyard directly to the user. In the upper left corner there is a link button that points to the about us page. The button was moved to the side, unlike originally planned, so that the image is not disturbed to.
+![Hero image](assets/images/readme/hero-image.png)
+Below the hero image there are two image containers that refer to the other subpages of the website. They were adapted to the layout of the hero image. 
+![Image container main page](assets/images/readme/image-container-main.png)
 
 - __About us Page__
 
-    - The About us page includes various information about the history of the vineyard, the grape chasselas and the region Wethau
+The *About us* page consists of three parts. The first part tells the short story about the owners of the vineyard, the second gives some information about the grape chasselas and the third part highlights the region where the vinyard is located. Each section contains an image, a heading, some text and a button. When viewed on a mobile phone the image will be placed on top of the heading. The buttons change their apperence when hovered. 
 
-       ![About us Page]()
+![About us Page](assets/images/readme/about-section.png)
 
 - __Gallery Page__
 
-    - The Gallery page will provide users with photographs to see what happens on the vineyard spread over a year.
-    - To create the responsive gallery I used the tutorial and css code from [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
-       ![Gallery Page]()
+The Gallery page will provide users with photographs to see what happens on the vineyard spread over a year. It has two main sections. The first contains horizontal photographs and the second vertical ones. 
+To create the responsive gallery I used the tutorial and css code for a grid gallery by [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
+![Gallery Page](assets/images/readme/gallery.png)
 
 - __Contact Page__
 
-   - The contact page xxx
-   - contact form
-   - map direction 
+The contact page contains two areas. The first offers a contact form that users can complete to get in touch with the owners of the vineyard. The user is asked to enter their first name, last name and e-mail address when sending a message. This information is mandatory. After submitting the form, a new tab with the results are displayed. Currently it shows the formdump.codeinstitute.net page with the determined form data. 
+![Contact fieldset](assets/images/readme/contact-fieldset.png)
+The second area provides directions to the vineyard. Both images are screenshots from google as in germany it is not permitted to use the interactive google map due to data security concerns. However, clicking on the images takes the user to the Google Maps page in a new tab.
+![Find us fieldset](assets/images/readme/find-us-fieldset.png)
 
-      ![Contact]()
+### Features, which I would like to implement in the future
 
-### Features which I would like to implement in the future
-
-- Gallery with categories for spring, summer, autumn & winter
-- bilingual
+- As the gallery is currently very simple, I would like to improve it in the future. I could imagine a different design with enlargeable images and subtitles. Furthermore I would create tags with categories for spring, summer, autumn & winter. 
+- I would like to create my personal page after submitting the form and of course use a corresponding data processing programm. 
+- Since German is my native language, I would love to make a german version of the website.
+- Add a favicon. 
 
 ## Technologies Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
--   To import fonts into the style.css: [Google Fonts:](https://fonts.google.com/)
--   To add icons: [Font Awesome:](https://fontawesome.com/)
--   [Git:](https://git-scm.com/) 
--   [GitHub:](https://github.com/)
--   The wireframes were created with [Balsamiq:](https://balsamiq.com/)
+-   [Google Fonts](https://fonts.google.com/) was used to import fonts into the style.css.
+-   [Font Awesome](https://fontawesome.com/) was used to add icons.
+-   [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
+-   [GitHub](https://github.com/) was used to save and store the files for the website.
+-   The wireframes were designed with [Balsamiq](https://balsamiq.com/)
 -   Color scheme was created with [Coloors](https://coolors.co/image-picker)
 -   The pictures were cropped and resized with [iLoveIMG](https://www.iloveimg.com/) 
--   
-    
+-   The responsive mockup was created with [Am I Responsive](https://ui.dev/amiresponsive)
 
 ## Testing
 
