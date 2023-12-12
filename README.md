@@ -144,6 +144,7 @@ The second area provides directions to the vineyard. Both images are screenshots
 - [Coloors](https://coolors.co/image-picker) was used to create the color scheme.
 - [iLoveIMG](https://www.iloveimg.com/) was used to cropp and resize the images.
 - [Am I Responsive](https://ui.dev/amiresponsive) was used to display the website on different devices.
+- [beautifier](https://beautifier.io/) to beautify the code
 
 ## Testing
 
