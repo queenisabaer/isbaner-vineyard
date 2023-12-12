@@ -140,8 +140,8 @@ main {
     position: relative;
 }
 
+/* Buttons on top of the images for further navigation */
 .image-button {
-    
     background-color: rgba(213, 182, 166, 0.8);
     border: #D5B6A6 1px solid;
     border-radius: 0 25px 25px 0;

@@ -6,7 +6,7 @@ View deployed site [here.](https://queenisabaer.github.io/isbaner-vineyard/)
 
 Isbaner vineyard is a site dedicated to the vineyard of the Isbaner family. The site is targeted towards interested parties, friends and family who want to know more about the vineyard, stay in touch with the owners or visit them and keep updated through the year. Furthermore it will be useful for people who want to know something about the Gutedel grape and the region Wethau, Saale-Unstrut.  
 
-![Responsive Mockup](assets/images/readme/am-i-responsive.png)
+![Responsive Mockup](documentation/readme/am-i-responsive.png)
 
 ## Table of contents
 
@@ -36,7 +36,7 @@ Frequent users are interested in staying in touch with the owners or want to kno
 All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty. 
 -   **Colour Scheme:**
 The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photograph of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields. 
-![Color palette](assets/images/readme/grapes-coloors-palette.png)
+![Color palette](documentation/readme/grapes-coloors-palette.png)
 -   **Typography:** 
 The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was selected for text content. It was important that this font creates a contrast to logo and heading. It should therefore be clear, simple and easy to read on all screen sizes. 
 Since growing wine is a very old and respected tradition, a handwritten-looking font was chosen as the font for the logo and headings: [Tangerine](https://fonts.google.com/specimen/Tangerine?query=tangerine)
@@ -51,8 +51,8 @@ Since growing wine is a very old and respected tradition, a handwritten-looking 
 <br>
 For simplicity's sake the logo has been left in the navigation bar. In addition, the buttons have been moved to the top left of the images to avoid covering the photos. 
 
-![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-index.png)
-![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-index.png)
+![Desktop wireframe](documentation/wireframes/isbaner-vineyard-desktop-index.png)
+![Mobile wireframe](documentation/wireframes/isbaner-vineyard-mobile-index.png)
 </details>
 
 <details>
@@ -60,8 +60,8 @@ For simplicity's sake the logo has been left in the navigation bar. In addition,
 <br>
 Since i've learned that buttons and links have different roles, I did not design the links as a button. especially since this design also resulted in a warning in the html validator.
 
-![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-about-us.png)
-![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-about-us.png)
+![Desktop wireframe](documentation/wireframes/isbaner-vineyard-desktop-about-us.png)
+![Mobile wireframe](documentation/wireframes/isbaner-vineyard-mobile-about-us.png)
 </details>
 
 <details>
@@ -69,16 +69,16 @@ Since i've learned that buttons and links have different roles, I did not design
 <br>
 
 The gallery was created without caption. This is a feature I would like to integrate in the future. 
-![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-gallery.png)
-![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-gallery.png)
+![Desktop wireframe](documentation/wireframes/isbaner-vineyard-desktop-gallery.png)
+![Mobile wireframe](documentation/wireframes/isbaner-vineyard-mobile-gallery.png)
 </details>
 
 <details>
 <summary> contact.html </summary>
 <br>
 
-![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-contact.png)
-![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-contact.png)
+![Desktop wireframe](documentation/wireframes/isbaner-vineyard-desktop-contact.png)
+![Mobile wireframe](documentation/wireframes/isbaner-vineyard-mobile-contact.png)
 </details>
 
 ## Features
@@ -88,39 +88,39 @@ The gallery was created without caption. This is a feature I would like to integ
 All the pages were created with a mobile first approach and are made responsive. To ensure that the layout of the pages remains consistent even on very large screens, the text body has been given a maximum width and a margin on both sides.  
 Every page contains a responsive navigation bar on the top with a logo on the left side and the navigation on the right that supports easy navigation. On small screens (e.g. mobile devices) the navigation will become a clickable burger toggler. To make it easier for users to know where they are on the website, the current page is underlined. 
 
-![Navbar on mobile devices](assets/images/readme/navigation-mobile.png)
-![Navbar when clicked on hamburger menu on a mobile device](assets/images/readme/navigation-mobile-toggle.png)
-![Navbar ob tablets and larger screens](assets/images/readme/navigation-desktop.png)
+![Navbar on mobile devices](documentation/readme/navigation-mobile.png)
+![Navbar when clicked on hamburger menu on a mobile device](documentation/readme/navigation-mobile-toggle.png)
+![Navbar ob tablets and larger screens](documentation/readme/navigation-desktop.png)
 
 The footer stays on the bottom of every page and features clickable social media icons and the coordinates of the vineyard, which act as a link to google maps. All links on the footer are opened in a new tab.
-![Footer on mobile devices](assets/images/readme/footer-mobile.png)
-![Footer on desktop](assets/images/readme/footer-desktop.png)
+![Footer on mobile devices](documentation/readme/footer-mobile.png)
+![Footer on desktop](documentation/readme/footer-desktop.png)
 
 - __Hero image__
 
 The hero image on the main page shows a lovely view over the vineyard. This is intended to convey the beauty of the vineyard directly to the user. In the upper left corner there is a link button that points to the about us page. The button was moved to the side, unlike originally planned, so that the image is not disturbed to.
-![Hero image](assets/images/readme/hero-image.png)<br>
+![Hero image](documentation/readme/hero-image.png)<br>
 Below the hero image there are two image containers that refer to the other subpages of the website. They were adapted to the layout of the hero image. 
-![Image container main page](assets/images/readme/image-container-main.png)
+![Image container main page](documentation/readme/image-container-main.png)
 
 - __About us Page__
 
 The *About us* page consists of three parts. The first part tells the short story about the owners of the vineyard, the second gives some information about the grape chasselas and the third part highlights the region where the vinyard is located. Each section contains an image, a heading, some text and a link. When viewed on a mobile phone the image will be placed on top of the heading. The links change their apperence when hovered. 
 
-![About us Page](assets/images/readme/about-section.png)
+![About us Page](documentation/readme/about-section.png)
 
 - __Gallery Page__
 
 The Gallery page will provide users with photographs to see what happens on the vineyard spread over a year. It has two main sections. The first contains horizontal photographs and the second vertical ones. 
 To create the responsive gallery I used the tutorial and css code for a grid gallery by [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
-![Gallery Page](assets/images/readme/gallery.png)
+![Gallery Page](documentation/readme/gallery.png)
 
 - __Contact Page__
 
 The contact page contains two areas. The first offers a contact form that users can complete to get in touch with the owners of the vineyard. The user is asked to enter their first name, last name and e-mail address when sending a message. This information is mandatory. After submitting the form, a new tab with the results are displayed. Currently it shows the formdump.codeinstitute.net page with the determined form data. 
-![Contact fieldset](assets/images/readme/contact-fieldset.png)<br>
+![Contact fieldset](documentation/readme/contact-fieldset.png)<br>
 The second area provides directions to the vineyard. Both images are screenshots from google as in germany it is not permitted to use the interactive google map due to data security concerns. However, clicking on the images takes the user to the Google Maps page in a new tab.
-![Find us fieldset](assets/images/readme/find-us-fieldset.png)
+![Find us fieldset](documentation/readme/find-us-fieldset.png)
 
 ### Features, which I would like to implement in the future
 
@@ -150,20 +150,20 @@ The second area provides directions to the vineyard. Both images are screenshots
 
     - result for index.html<br>
       First I had an error because my semantics of the h2/button element weren't correct. No errors or warnings were found after fixing this problem.
-      ![HTML results index with errors](assets/images/readme/html-validator-errors-index.png)
-      ![HTML results index](assets/images/readme/html-validator-index.png)
+      ![HTML results index with errors](documentation/readme/html-validator-errors-index.png)
+      ![HTML results index](documentation/readme/html-validator-index.png)
     - result for about.html<br>
       I made a mistake because I used a link within a button element, which is semantically wrong. I deleted the button and styled the link instead and no more errors were found.
-      ![HTML results about us with errors](/assets/images/readme/html-validator-errors-about.png)
-      ![HTML results about us](assets/images/readme/html-validator-about.png)
+      ![HTML results about us with errors](documentation/readme/html-validator-errors-about.png)
+      ![HTML results about us](documentation/readme/html-validator-about.png)
     - result for gallery.html<br>
-      ![HTML results gallery](assets/images/readme/html-validator-gallery.png)    
+      ![HTML results gallery](documentation/readme/html-validator-gallery.png)    
     - result for contact.html<br>
       On the contact page I forgot to delete a paragraph tag and incorrectly assigned an ID to two other elements. After I individualized them, no further errors were found.
-      ![HTML results contact with error](assets/images/readme/html-validator-errors-contact2.png)
-      ![HTML results contact with error](assets/images/readme/html-validator-errors-contact1.png)
-      ![HTML results contact with error](assets/images/readme/html-validator-error-contact.png)
-      ![HTML results contact](assets/images/readme/html-validator-contact.png)<br>
+      ![HTML results contact with error](documentation/readme/html-validator-errors-contact2.png)
+      ![HTML results contact with error](documentation/readme/html-validator-errors-contact1.png)
+      ![HTML results contact with error](documentation/readme/html-validator-error-contact.png)
+      ![HTML results contact](documentation/readme/html-validator-contact.png)<br>
 
 I also checked all pages in the validator via text-input and likewise no errors were detected in this way. 
         
@@ -171,14 +171,14 @@ I also checked all pages in the validator via text-input and likewise no errors 
 
     - result for styles.css <br>
     The only warning I received initially was the use of a text wrap property. I could easily fix this by changing it into the white-space property. 
-      ![CSS results](assets/images/readme/css-validator.png)
+      ![CSS results](documentation/readme/css-validator.png)
       The warning is due to import of the Google fonts.
 
 3. Lighthouse Test<br>
 To measure the website against performance, accessibility, SEO and best practice I used [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).<br>
 I could improve the accessibility by changing the quotation marks, which are a part of the coordinates and can not be used in the aria-label, into two single quotes. 
-![Lighthouse with warning](assets/images/readme/lighthouse-accessibility-coordinates.png)
-![Lighthouse with correction](assets/images/readme/lighthouse-after-correction.png)
+![Lighthouse with warning](documentation/readme/lighthouse-accessibility-coordinates.png)
+![Lighthouse with correction](documentation/readme/lighthouse-after-correction.png)
 
 
 4. Manual testing <br>
