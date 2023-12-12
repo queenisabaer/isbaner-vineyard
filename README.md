@@ -209,17 +209,15 @@ The tests were conducted using the following browsers:
 ### Code
 
 - The css code for the responsive picture gallery grid was taken from the tutorial bei [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
-- To understand more about the concepts of html and css fundamentals such as float-property, flexbox and grid I used the udemy course: [The complete 2023 Web Development Bootcamp by Dr. Angela Yu](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+- To understand more about the concepts of html and css fundamentals such as float-property, flexbox and grid, I used the udemy course: [The complete 2023 Web Development Bootcamp by Dr. Angela Yu](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 - The following websites were used as a source of knowledge: <br>
-[Google](www.google.com) <br>
-[mdn](https://developer.mozilla.org/en-US/)<br>
-[W3C](https://www.w3.org/)<br>
-[W3schools](https://www.w3schools.com/)<br>
-[DevDocs](https://devdocs.io/)<br>
-[Stack Overflow](https://stackoverflow.com/)<br>
-Slack Community
-
-
+  - [Google](www.google.com)
+  - [mdn](https://developer.mozilla.org/en-US/)
+  - [W3C](https://www.w3.org/)
+  - [W3schools](https://www.w3schools.com/) 
+  - [DevDocs](https://devdocs.io/)
+  - [Stack Overflow](https://stackoverflow.com/)
+  - Slack Community
 
 ### Media 
 
