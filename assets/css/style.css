@@ -1,431 +1,439 @@
 /* Google Fonts import URL */
-@import url('https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Tangerine:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Tangerine:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* General Styles */
 body {
-    font-family: 'Nobile', sans-serif;
-    background-color: #F2FAEF;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Limit how much body can grow */
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+  font-family: "Nobile", sans-serif;
+  background-color: #f2faef;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Limit how much body can grow */
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-    margin: 15px 0;
-    font-size: 2.75rem;
+  margin: 15px 0;
+  font-size: 2.75rem;
 }
 
-h1, h2 {
-    /* Chose a cursive font as fall-back to be more similar to the logo */
-    font-family: 'tangerine', cursive;
+h1,
+h2 {
+  /* Chose a cursive font as fall-back to be more similar to the logo */
+  font-family: "tangerine", cursive;
 }
 
 h2 {
-    margin: 5px;
-    font-size: 2.5rem;
-    padding-left: 15px;
+  margin: 5px;
+  font-size: 2.5rem;
+  padding-left: 15px;
 }
 
 .vinegreen {
-    color: #295900;
+  color: #295900;
 }
 
 p {
-    line-height: 25px;
+  line-height: 25px;
 }
 
 /* For footnotes, gloss etc. */
 .gloss {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 /* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    position: fixed;
-    width: 100%;
-    padding: 0 1rem;
-    z-index: 13;
-    background-color: #ffffff;
-    box-shadow: 0 1px 1px #295900;
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: fixed;
+  width: 100%;
+  padding: 0 1rem;
+  z-index: 13;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px #295900;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
 }
 
 header a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #logo {
-    color: #295900; 
-    white-space: nowrap;
+  color: #295900;
+  white-space: nowrap;
 }
 
 /* Navigation bar */
 nav {
-    width: fit-content;
-    justify-content: end;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
+  width: fit-content;
+  justify-content: end;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-item a {
-    color: #000000;
-    list-style-type: none;
+  color: #000000;
+  list-style-type: none;
 }
 
 .nav-item {
-    margin: 0;
-    padding: 0 15px;
-    display: block;
-    text-align: center;
-}   
+  margin: 0;
+  padding: 0 15px;
+  display: block;
+  text-align: center;
+}
 
 .active {
-    border-bottom: #295900 1px solid;
+  border-bottom: #295900 1px solid;
 }
 
 /* Navigation Toggle */
-#nav-toggle:checked~nav {
-    display: block;
-    line-height: 25px;
-    margin-bottom: 15px;
+#nav-toggle:checked ~ nav {
+  display: block;
+  line-height: 25px;
+  margin-bottom: 15px;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav-toggle-label {
-    font-size: 1.5rem;
-    margin-left: 30px;
+  font-size: 1.5rem;
+  margin-left: 30px;
 }
 
 /* Main Content */
 main {
-    margin-top: 75px;
+  margin-top: 75px;
 }
 
 .flex-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
 }
 
 /* Hero Image */
 #hero {
-    background: url(../images/vinyard-october-2022-hero.jpg) no-repeat center center/cover;
-    width: 100%;
-    min-height: 300px;
-    height: 50vh;
-    margin-bottom: 5px;
+  background: url(../images/vinyard-october-2022-hero.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+  min-height: 300px;
+  height: 50vh;
+  margin-bottom: 5px;
 }
 
-.image-container, .about-container {
-    position: relative;
+.image-container,
+.about-container {
+  position: relative;
 }
 
 /* Buttons on top of the images for further navigation */
 .image-button {
-    background-color: rgba(213, 182, 166, 0.8);
-    border: #D5B6A6 1px solid;
-    border-radius: 0 25px 25px 0;
-    padding: 10px 15px;
-    position: absolute;
-    width: 33%;
-    min-width: fit-content;
-    top: 25px;
+  background-color: rgba(213, 182, 166, 0.8);
+  border: #d5b6a6 1px solid;
+  border-radius: 0 25px 25px 0;
+  padding: 10px 15px;
+  position: absolute;
+  width: 33%;
+  min-width: fit-content;
+  top: 25px;
 }
 
 .image-button a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .image-button a:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .image-button h2 {
-    padding-left: 0;
-    white-space: nowrap;
+  padding-left: 0;
+  white-space: nowrap;
 }
 
 /* Section with image box and button to gallery and contact page at index */
 #gallery-box {
-    background: url(../images/vineyard-keys-february-2017.jpg) no-repeat 33% center/cover;
-    width: 100%;
-    min-height: 200px;
-    height: 50vh;
-    flex: 1;
+  background: url(../images/vineyard-keys-february-2017.jpg) no-repeat 33%
+    center/cover;
+  width: 100%;
+  min-height: 200px;
+  height: 50vh;
+  flex: 1;
 }
 
 #contact-box {
-    background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat 10% center/cover;
-    width: 100%;
-    flex: 1;
+  background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat 10%
+    center/cover;
+  width: 100%;
+  flex: 1;
 }
 
 /* About us page */
 .about-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .about-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .row-image {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .row-text {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .row-text h3 {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .row-image img {
-    max-width: 100%;
-    padding: 0 15px;
-    width: auto;
-    height: auto;
+  max-width: 100%;
+  padding: 0 15px;
+  width: auto;
+  height: auto;
 }
 
-.row-text, .row-image {
-    flex: 1;
+.row-text,
+.row-image {
+  flex: 1;
 }
 
 .row-text p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-.about-links{
-    color: #295900;
-    font-size: 115%;
-    text-decoration: none;
+.about-links {
+  color: #295900;
+  font-size: 115%;
+  text-decoration: none;
 }
 
 .row-text a:hover {
-
-    color: #D5B6A6;
+  color: #d5b6a6;
 }
 
 /* Gallery */
 #heading-gallery {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 .gallery img {
-    width: 100%;
+  width: 100%;
 }
 
 .grid-container {
-    display: grid;
-    /* Used a template by Rüdiger Alte for the grid */
-    grid-template-columns: repeat(auto-fit, minmax(300px,2.5fr));
-    grid-gap: 5px;
-    justify-items: center;
-    margin-bottom: 5px;
+  display: grid;
+  /* Used a template by Rüdiger Alte for the grid */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2.5fr));
+  grid-gap: 5px;
+  justify-items: center;
+  margin-bottom: 5px;
 }
 
 /* Contact Page */
 .contact-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #contact-form {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contact {
-    background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat center center/cover;
+  background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat center
+    center/cover;
 }
 
 .fieldset {
-    background-color: rgba(213, 182, 166, 0.7);
-    border: #295900 1px solid;
-    margin: 15px;
-    padding: 15px;
+  background-color: rgba(213, 182, 166, 0.7);
+  border: #295900 1px solid;
+  margin: 15px;
+  padding: 15px;
 }
 
 .fieldset legend {
-    background-color: #295900;
-    color: #ffffff;
-    padding: 2px 15px 2px 0;
+  background-color: #295900;
+  color: #ffffff;
+  padding: 2px 15px 2px 0;
 }
 
 #direction-div {
-    clear: right;
-    margin-top: 15px;
+  clear: right;
+  margin-top: 15px;
 }
 
 /* Contact us section */
 .text-input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    height: 35px;
-    font-family: 'Nobile';
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  height: 35px;
+  font-family: "Nobile";
 }
 
-.contact-information, #contact-reasons {
-    margin: 10px 0;
+.contact-information,
+#contact-reasons {
+  margin: 10px 0;
 }
 
 .contact-button {
-    font-size: 1rem;
-    background-color: #295900;
-    color: #ffffff;
-    border-radius: 5px;
-    border: 1px solid #ffffff;
-    padding: 10px 25px;
-    margin: 15px 0;
-    height: 50px;
+  font-size: 1rem;
+  background-color: #295900;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 10px 25px;
+  margin: 15px 0;
+  height: 50px;
 }
 
-.contact-button:hover{
-    background-color: #ffffff;
-    color: #295900;
-    border: #295900 1px solid;
+.contact-button:hover {
+  background-color: #ffffff;
+  color: #295900;
+  border: #295900 1px solid;
 }
 
-.contact-information > label, .contact-information > input {
-    display: block;
+.contact-information > label,
+.contact-information > input {
+  display: block;
 }
 
 /* Find us section */
 #location-map {
-    width: 50%;
-    min-width: 100px;
-    max-width: 350px;
-    float: right;
-    border-radius: 5px;
+  width: 50%;
+  min-width: 100px;
+  max-width: 350px;
+  float: right;
+  border-radius: 5px;
 }
 
 #map-direction {
-    width: 50%;
-    min-width: 150px;
-    max-width: 400px;
-    border-radius: 5px;
-    margin: 15px 0;
+  width: 50%;
+  min-width: 150px;
+  max-width: 400px;
+  border-radius: 5px;
+  margin: 15px 0;
 }
 
 /* Footer */
 footer {
-    margin-top: auto;
-    padding-top: 15px;
-    background-color: #ffffff;
+  margin-top: auto;
+  padding-top: 15px;
+  background-color: #ffffff;
 }
 
-.bottom-container div{
-    margin-bottom: 5px;
+.bottom-container div {
+  margin-bottom: 5px;
 }
 
 .social-networks {
-    text-decoration: none;
-    list-style-type: none;
-    padding-left: 0;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .social-networks li {
-    display: inline;
-    padding: 10px;
-    font-size: 110%;
+  display: inline;
+  padding: 10px;
+  font-size: 110%;
 }
 
 .bottom-container {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 /* larger or landscape phones (576px or larger) */
-@media screen and (min-width: 576px) {  
-    /* Footer */
-    #coordinates > div  {
+@media screen and (min-width: 576px) {
+  /* Footer */
+  #coordinates > div {
     display: inline-block;
-    }
+  }
 
-    #social > div, #social > ul {
-        display: inline;
-    }
+  #social > div,
+  #social > ul {
+    display: inline;
+  }
 
-    .coordinates {
-        padding: 0 10px;
-    }
+  .coordinates {
+    padding: 0 10px;
+  }
 }
 
 /* larger or landscape phones (768px or larger) */
 @media screen and (min-width: 768px) {
-    /* Make navigation bar appear in one line*/
-    nav {
-        display: flex;
-        text-align: center;
-        margin-right: 0;
-    }
-    
-    .nav-item {
-      display: inline;
-    }
+  /* Make navigation bar appear in one line*/
+  nav {
+    display: flex;
+    text-align: center;
+    margin-right: 0;
+  }
 
-    .nav-toggle-label {
-        display: none;
-    }  
+  .nav-item {
+    display: inline;
+  }
 
-    /* About us page - make the images float next to the text */
-    .about-row {
-            flex-direction: row;
-    }
-    
-    .row-reverse {
-        flex-direction: row-reverse;
-    }
-    
-    .row-text {
-        text-align: center;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    /* Make fieldsets at contact page appear next to each other */
-    .contact-container {
-        flex-wrap: nowrap;
-        align-items: flex-start;
-    }
+  /* About us page - make the images float next to the text */
+  .about-row {
+    flex-direction: row;
+  }
 
-    .contact-container section {
-        flex: 1;
-    }
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
 
+  .row-text {
+    text-align: center;
+  }
+
+  /* Make fieldsets at contact page appear next to each other */
+  .contact-container {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .contact-container section {
+    flex: 1;
+  }
 }
 
 /* laptops (1024px or larger) */
 @media screen and (min-width: 1024px) {
-    /* Making the hero image heigh enough so it still looks nice */
-    #hero {
-        min-height: 500px;
-    }
+  /* Making the hero image heigh enough so it still looks nice */
+  #hero {
+    min-height: 500px;
+  }
 }

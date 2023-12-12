@@ -1,171 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
-      content="Homepage for the vineyard of the Isbaner Family, located in Wethau, Germany">
+      content="Homepage for the vineyard of the Isbaner Family, located in Wethau, Germany"
+    />
     <meta
       name="keywords"
-      content="vineyard, isbaner, vine, grapes, chasselas, wethau, saxony-anhalt">
-    <meta name="author" content="Dajana Isbaner">
-    <link rel="stylesheet" href="assets/css/style.css">
+      content="vineyard, isbaner, vine, grapes, chasselas, wethau, saxony-anhalt"
+    />
+    <meta name="author" content="Dajana Isbaner" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Title -->
     <title>Isbaner Vineyard | Contact</title>
   </head>
   <body id="contact">
     <!-- Header Section -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Isbaner Vineyard</h1>
-        </a>
-        <!-- Navbar -->
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars vinegreen"></i></label>
-        <nav>
-            <ul class="nav-bar">
-                <li class="nav-item"><a href="index.html">Home</a></li>
-                <li class="nav-item"><a href="about.html">About us</a></li>
-                <li class="nav-item"><a href="gallery.html">Gallery</a></li>
-                <li class="nav-item active"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">Isbaner Vineyard</h1>
+      </a>
+      <!-- Navbar -->
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars vinegreen"></i
+      ></label>
+      <nav>
+        <ul class="nav-bar">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About us</a></li>
+          <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+          <li class="nav-item active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Section -->
     <main>
       <!-- Contact Form Section-->
       <div class="contact-container">
-      <section id="contact-form">
-        <form action="https://formdump.codeinstitute.net" method="POST" target="_blank">
+        <section id="contact-form">
+          <form
+            action="https://formdump.codeinstitute.net"
+            method="POST"
+            target="_blank"
+          >
+            <fieldset class="fieldset">
+              <legend><h2>Contact us</h2></legend>
+              <p>
+                We are excited to welcome you to our small vineyard, located in
+                Wethau, Saxony-Anhalt. Immerse yourself in our beautiful garden
+                and enjoy the spectacular view over Wethau holding a glass of
+                wine in your hand. If you are interested, we will host you for a
+                private tasting experience. Please use the following form to
+                reach us:
+              </p>
+              <div class="contact-information">
+                <label for="first_name"
+                  >First Name<span class="vinegreen">*</span></label
+                >
+                <input
+                  type="text"
+                  name="first_name"
+                  id="first_name"
+                  class="text-input"
+                  required
+                />
+                <label for="last_name"
+                  >Last Name<span class="vinegreen">*</span></label
+                >
+                <input
+                  type="text"
+                  name="last_name"
+                  id="last_name"
+                  class="text-input"
+                  required
+                />
+                <label for="email_address"
+                  >Email Address<span class="vinegreen">*</span></label
+                >
+                <input
+                  type="email"
+                  name="email_address"
+                  id="email_address"
+                  class="text-input"
+                  required
+                />
+                <label for="telephone">Telephone</label>
+                <input
+                  type="text"
+                  name="telephone"
+                  id="telephone"
+                  class="text-input"
+                />
+              </div>
+              <p>I want:</p>
+              <div id="contact-reasons">
+                <div>
+                  <input
+                    type="checkbox"
+                    value="vine-tasting"
+                    id="vine-tasting"
+                    name="contact-reasons"
+                  />
+                  <label for="vine-tasting">to book a vine-tasting</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    value="guided-tour"
+                    id="guided-tour"
+                    name="contact-reasons"
+                  />
+                  <label for="guided-tour">a guided tour</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    value="visit"
+                    id="view"
+                    name="contact-reasons"
+                    checked
+                  />
+                  <label for="view">to see the spectacular view</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    value="visit"
+                    id="information"
+                    name="contact-reasons"
+                  />
+                  <label for="information">more information</label>
+                </div>
+                <button type="submit" class="contact-button">
+                  Cheers and submit
+                </button>
+                <p class="gloss"><span class="vinegreen">*</span>required</p>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+        <!-- How to find us Section -->
+        <section>
           <fieldset class="fieldset">
-            <legend><h2>Contact us</h2></legend>
-            <p>
-              We are excited to welcome you to our small vineyard, located in
-              Wethau, Saxony-Anhalt. Immerse yourself in our beautiful garden
-              and enjoy the spectacular view over Wethau holding a glass of wine
-              in your hand. If you are interested, we will host you for a
-              private tasting experience. Please use the following form to reach us:
-            </p>
-            <div class="contact-information">
-              <label for="first_name"
-                >First Name<span class="vinegreen">*</span></label
-              >
-              <input
-                type="text"
-                name="first_name"
-                id="first_name"
-                class="text-input"
-                required
-                >
-              <label for="last_name"
-                >Last Name<span class="vinegreen">*</span></label
-              >
-              <input
-                type="text"
-                name="last_name"
-                id="last_name"
-                class="text-input"
-                required
-              >
-              <label for="email_address"
-                >Email Address<span class="vinegreen">*</span></label
-              >
-              <input
-                type="email"
-                name="email_address"
-                id="email_address"
-                class="text-input"
-                required
-              >
-              <label for="telephone">Telephone</label>
-              <input
-                type="text"
-                name="telephone"
-                id="telephone"
-                class="text-input"
-              >
+            <legend><h2>How to find us</h2></legend>
+            <a
+              href="https://maps.app.goo.gl/4XjD9zxRx1GHbCAYA"
+              target="_blank"
+              rel="noopener"
+              aria-label="Find us on Google Maps (opens in a new tab)"
+              ><img
+                src="assets/images/contact/vineyard-location-google-maps.png"
+                alt="Google maps section with pin for the vinyard location"
+                id="location-map"
+            /></a>
+            <div>
+              <h3>Address</h3>
+              <address>
+                Langer Berg 0<br />06618 Wethau<br />Germany<br />51°08'26.0"N
+                11°51'28.9"E
+              </address>
             </div>
-            <p>I want:</p>
-            <div id="contact-reasons">
-              <div>
-                <input
-                  type="checkbox"
-                  value="vine-tasting"
-                  id="vine-tasting"
-                  name="contact-reasons"
-                >
-                <label for="vine-tasting">to book a vine-tasting</label>
-              </div>
-              <div>
-                <input
-                  type="checkbox"
-                  value="guided-tour"
-                  id="guided-tour"
-                  name="contact-reasons"
-                >
-                <label for="guided-tour">a guided tour</label>
-              </div>
-              <div>
-                <input
-                  type="checkbox"
-                  value="visit"
-                  id="view"
-                  name="contact-reasons"
-                  checked
-                >
-                <label for="view">to see the spectacular view</label>
-              </div>
-              <div>
-                <input
-                  type="checkbox"
-                  value="visit"
-                  id="information"
-                  name="contact-reasons"
-                >
-                <label for="information">more information</label>
-              </div>
-              <button type="submit" class="contact-button">
-                Cheers and submit
-              </button>
-              <p class="gloss"><span class="vinegreen">*</span>required</p>
+            <div id="direction-div">
+              <h3>Direction</h3>
+              <p>
+                Enter <em>Hirtengraben 1, 06618 Wethau</em> in the navigation
+                system and continue straight ahead at the cemetery past the
+                playground until the road bends. Follow the direction of the
+                path and after 50m you have reached our vineyard. It is best to
+                park on the side of the field.
+              </p>
+              <a
+                href="https://maps.app.goo.gl/4XjD9zxRx1GHbCAYA"
+                target="_blank"
+                rel="noopener"
+                aria-label="Find us on Google Maps (opens in a new tab)"
+                ><img
+                  src="assets/images/contact/vinyard-location-map-direction.png"
+                  alt="Google maps section with pin for the vinyard location and a blue dotted line for direction"
+                  id="map-direction"
+                />
+              </a>
             </div>
           </fieldset>
-        </form>
-      </section>
-      <!-- How to find us Section -->
-      <section>
-        <fieldset class="fieldset">
-          <legend><h2>How to find us</h2></legend>
-          <a
-            href="https://maps.app.goo.gl/4XjD9zxRx1GHbCAYA"
-            target="_blank"
-            rel="noopener"
-            aria-label="Find us on Google Maps (opens in a new tab)"
-            ><img
-              src="assets/images/contact/vineyard-location-google-maps.png"
-              alt="Google maps section with pin for the vinyard location"
-              id="location-map"
-            ></a>
-          <div>
-            <h3>Address</h3>
-            <address>Langer Berg 0<br>06618 Wethau<br>Germany<br>51°08'26.0"N 11°51'28.9"E</address>
-          </div>
-          <div id="direction-div">
-            <h3>Direction</h3>
-            <p>Enter <em>Hirtengraben 1, 06618 Wethau</em> in the navigation system and continue straight ahead at the cemetery past the playground until the road bends. Follow the direction of the path and after 50m you have reached our vineyard. It is best to park on the side of the field.</p>
-            <a href="https://maps.app.goo.gl/4XjD9zxRx1GHbCAYA"
-            target="_blank"
-            rel="noopener"
-            aria-label="Find us on Google Maps (opens in a new tab)"
-            ><img src="assets/images/contact/vinyard-location-map-direction.png" alt="Google maps section with pin for the vinyard location and a blue dotted line for direction" id="map-direction">
-            </a>
-          </div>
-        </fieldset>
-      </section>
-    </div>
+        </section>
+      </div>
     </main>
 
     <!-- Footer -->

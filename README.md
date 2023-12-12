@@ -190,10 +190,11 @@ I could improve the accessibility by changing the quotation marks, which are a p
 4. Manual testing <br>
 
 
+To ensure the websites are responsive, I used the Google Chrome developer tools.
 
 5. Browser Compatibility<br>
 The tests were conducted using the following browsers:
-- Google Chrome Version 120.0.6099.71
+- Google Chrome Version 120.0.6099.71 
 - Safari on Mac Version 17.0 (17616.1.27.111.22, 17616)
 - Safari on iOS 17.1.2 
 - Edge Version 120.0.2210.61
