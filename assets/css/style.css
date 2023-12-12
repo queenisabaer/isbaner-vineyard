@@ -76,6 +76,15 @@ header a {
   white-space: nowrap;
 }
 
+/* Make logo and burger icon appear on one line on mobile devices */
+#header-top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
 /* Navigation bar */
 nav {
   width: fit-content;
@@ -396,6 +405,11 @@ footer {
     display: flex;
     text-align: center;
     margin-right: 0;
+  }
+  
+  /* Make navigation menu appear on one base-line with logo */
+  #header-top-row {
+    width: 0;
   }
 
   .nav-item {

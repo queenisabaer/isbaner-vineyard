@@ -120,7 +120,7 @@ To create the responsive gallery I used the tutorial and css code for a grid gal
 
 - **Contact Page**
 
-The contact page contains two areas. The first offers a contact form that users can complete to get in touch with the owners of the vineyard. The user is asked to enter their first name, last name and e-mail address when sending a message. This information is mandatory. After submitting the form, a new tab with the results are displayed. Currently it shows the formdump.codeinstitute.net page with the determined form data.
+The contact page contains two areas. The first offers a contact form that users can complete to get in touch with the owners of the vineyard. The user is asked to enter their first name, last name and e-mail address when sending a message. This information is mandatory. After submitting the form, a new tab with the results are displayed. Currently it shows the formdump.codeinstitute.net page with the determined form data. Unfortunately, the Code Institute formdumb is not designed to display multiple entries in checkboxes, which is why only the first one is displayed as value. 
 ![Contact fieldset](documentation/readme/contact-fieldset.png)<br>
 The second area provides directions to the vineyard. Both images are screenshots from google as in germany it is not permitted to use the interactive google map due to data security concerns. However, clicking on the images takes the user to the Google Maps page in a new tab.
 ![Find us fieldset](documentation/readme/find-us-fieldset.png)
@@ -154,13 +154,13 @@ The second area provides directions to the vineyard. Both images are screenshots
   - result for index.html<br>
     First I had an error because my semantics of the h2/button element weren't correct. No errors or warnings were found after fixing this problem.
     ![HTML results index with errors](documentation/readme/html-validator-errors-index.png)
-    ![HTML results index](documentation/readme/html-validator-index.png)
+    ![HTML results index](documentation/readme/html-validator-index.png)<br>
   - result for about.html<br>
     I made a mistake because I used a link within a button element, which is semantically wrong. I deleted the button and styled the link instead and no more errors were found.
     ![HTML results about us with errors](documentation/readme/html-validator-errors-about.png)
-    ![HTML results about us](documentation/readme/html-validator-about.png)
+    ![HTML results about us](documentation/readme/html-validator-about.png)<br>
   - result for gallery.html<br>
-    ![HTML results gallery](documentation/readme/html-validator-gallery.png)
+    ![HTML results gallery](documentation/readme/html-validator-gallery.png)<br>
   - result for contact.html<br>
     On the contact page I forgot to delete a paragraph tag and incorrectly assigned an ID to two other elements. After I individualized them, no further errors were found.
     ![HTML results contact with error](documentation/readme/html-validator-errors-contact2.png)
@@ -213,9 +213,9 @@ To ensure the pages are responsive, I used the Google Chrome developer tools.
 | Contact page - form submission | Click on the "cheers and submit" button. A new page with Code Institute formdumb should open | After all required contact fields have been filled out, click on the cheers and submit button. A new page with Code Institute formdumb should open | Pass |
 | Contact page - images with links | Click on the images in the "How to find us" section and a new tab with google maps opens | After clicking on the images in the "How to find us" section", a new tab with Google Maps should open with the coordinates already located | Pass |
 | Responsiveness mobile - navigation | Open website on mobile | On mobile screens the navigation should be a first seen as burger icon | Pass |
-| Responsiveness 4K+ | Open the website on 4K or larger screen | The website should have a maximum witdh and stay in in the middle. The background color should be a light green, according to the color scheme | Pass |
+| Responsiveness 4K+ | Open the website on 4K or larger screen | The website should have a maximum witdh and stay in the middle. The background color should be a light green, according to the color scheme | Pass |
 
-4. Browser Compatibility<br>
+4. **Browser Compatibility**<br>
    The tests were conducted using the following browsers:
 
 - Google Chrome Version 120.0.6099.71
@@ -223,7 +223,7 @@ To ensure the pages are responsive, I used the Google Chrome developer tools.
 - Safari on iOS 17.1.2
 - Edge Version 120.0.2210.61
 
-5. Bugs
+5. **Bugs**
 
 - No bugs were found.
 
