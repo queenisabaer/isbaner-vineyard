@@ -177,9 +177,15 @@ I also checked all pages in the validator via text-input and likewise no errors 
 3. Lighthouse Test<br>
 To measure the website against performance, accessibility, SEO and best practice I used [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).<br>
 I could improve the accessibility by changing the quotation marks, which are a part of the coordinates and can not be used in the aria-label, into two single quotes. 
+- result for index.html:
 ![Lighthouse with warning](documentation/readme/lighthouse-accessibility-coordinates.png)
 ![Lighthouse with correction](documentation/readme/lighthouse-after-correction.png)
-
+- result for about.html:
+![Lighthouse with warning](documentation/readme/lighthouse-about.png)
+-result for gallery.html:
+![Lighthouse with warning](documentation/readme/lighthouse-gallery.png)
+- result for contact.html:
+![Lighthouse with warning](documentation/readme/lighthouse-contact.png)
 
 4. Manual testing <br>
 
