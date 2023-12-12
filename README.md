@@ -58,6 +58,7 @@ For simplicity's sake the logo has been left in the navigation bar. In addition,
 <details>
 <summary> about-us.html </summary>
 <br>
+Since i've learned that buttons and links have different roles, I did not design the links as a button. especially since this design also resulted in a warning in the html validator.
 
 ![Desktop wireframe](assets/images/wireframes/isbaner-vineyard-desktop-about-us.png)
 ![Mobile wireframe](assets/images/wireframes/isbaner-vineyard-mobile-about-us.png)
@@ -104,7 +105,7 @@ Below the hero image there are two image containers that refer to the other subp
 
 - __About us Page__
 
-The *About us* page consists of three parts. The first part tells the short story about the owners of the vineyard, the second gives some information about the grape chasselas and the third part highlights the region where the vinyard is located. Each section contains an image, a heading, some text and a button. When viewed on a mobile phone the image will be placed on top of the heading. The buttons change their apperence when hovered. 
+The *About us* page consists of three parts. The first part tells the short story about the owners of the vineyard, the second gives some information about the grape chasselas and the third part highlights the region where the vinyard is located. Each section contains an image, a heading, some text and a link. When viewed on a mobile phone the image will be placed on top of the heading. The links change their apperence when hovered. 
 
 ![About us Page](assets/images/readme/about-section.png)
 
@@ -151,28 +152,49 @@ The second area provides directions to the vineyard. Both images are screenshots
       First I had an error because my semantics of the h2/button element weren't correct. No errors or warnings were found after fixing this problem.
       ![HTML results index with errors](assets/images/readme/html-validator-errors-index.png)
       ![HTML results index](assets/images/readme/html-validator-index.png)
-    - result for about.html
-      ![HTML results about us](/assets/images/readme/)
-    - result for gallery.html
-      ![HTML results gallery]()    
-    - result for contact.html
-      ![HTML results contact]()
-        
+    - result for about.html<br>
+      I made a mistake because I used a link within a button element, which is semantically wrong. I deleted the button and styled the link instead and no more errors were found.
+      ![HTML results about us with errors](/assets/images/readme/html-validator-errors-about.png)
+      ![HTML results about us](assets/images/readme/html-validator-about.png)
+    - result for gallery.html<br>
+      ![HTML results gallery](assets/images/readme/html-validator-gallery.png)    
+    - result for contact.html<br>
+      On the contact page I forgot to delete a paragraph tag and incorrectly assigned an ID to two other elements. After I individualized them, no further errors were found.
+      ![HTML results contact with error](assets/images/readme/html-validator-errors-contact2.png)
+      ![HTML results contact with error](assets/images/readme/html-validator-errors-contact1.png)
+      ![HTML results contact with error](assets/images/readme/html-validator-error-contact.png)
+      ![HTML results contact](assets/images/readme/html-validator-contact.png)<br>
 
+I also checked all pages in the validator via text-input and likewise no errors were detected in this way. 
+        
 2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-    - result for styles.css 
-      ![CSS results]()
-
+    - result for styles.css <br>
+    The only warning I received initially was the use of a text wrap property. I could easily fix this by changing it into the white-space property. 
+      ![CSS results](assets/images/readme/css-validator.png)
       The warning is due to import of the Google fonts.
 
-3. Browser Compatibility
+3. Lighthouse Test<br>
+To measure the website against performance, accessibility, SEO and best practice I used [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).<br>
+I could improve the accessibility by changing the quotation marks, which are a part of the coordinates and can not be used in the aria-label, into two single quotes. 
+![Lighthouse with warning](assets/images/readme/lighthouse-accessibility-coordinates.png)
+![Lighthouse with correction](assets/images/readme/lighthouse-after-correction.png)
 
-- xxx
+
+4. Manual testing <br>
+
+
+
+5. Browser Compatibility<br>
+The tests were conducted using the following browsers:
+- Google Chrome Version 120.0.6099.71
+- Safari on Mac Version 17.0 (17616.1.27.111.22, 17616)
+- Safari on iOS 17.1.2 
+- Edge Version 120.0.2210.61
   
-4. Bugs
+6. Bugs
 
-- xxx
+- No bugs were found.
 
 ## Deployment
 
@@ -182,15 +204,27 @@ The second area provides directions to the vineyard. Both images are screenshots
 
 ### Content 
 
-- xxx
+- I used for information about chasselas and the winegrowers association: [Weinlaube](https://www.weinlaube.de/weinwissen/rebsorten/weisse/gutedel/) and the website of the [Winzervereinigung Freyburg-Unstrut](https://www.winzervereinigung-freyburg.de/en/15/winzervereinigung/winzervereinigung)
 
 ### Code
 
 - The css code for the responsive picture gallery grid was taken from the tutorial bei [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
+- To understand more about the concepts of html and css fundamentals such as float-property, flexbox and grid I used the udemy course: [The complete 2023 Web Development Bootcamp by Dr. Angela Yu](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+- The following websites were used as a source of knowledge: <br>
+[Google](www.google.com) <br>
+[mdn](https://developer.mozilla.org/en-US/)<br>
+[W3C](https://www.w3.org/)<br>
+[W3schools](https://www.w3schools.com/)<br>
+[DevDocs](https://devdocs.io/)<br>
+[Stack Overflow](https://stackoverflow.com/)<br>
+Slack Community
+
+
 
 ### Media 
 
-- xxx
+- Icons on the footer, the header and for links were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts were imported from [Google Fonts](https://fonts.google.com/)
 
 ### ReadMe
 
@@ -199,6 +233,6 @@ The second area provides directions to the vineyard. Both images are screenshots
 
 ### Acknowledgments
 
-- 
+- I would like to thank my wonderful mentor Brian Maccheria for his numerous tips and great assistance during the creation of this project.
 
 __This is for educational use.__
