@@ -147,9 +147,9 @@ The second area provides directions to the vineyard. Both images are screenshots
 
 ## Testing
 
-1. Validator Testing
+1. **Validator Testing**
 
-- [HTML Validator](https://validator.w3.org/)
+- **[HTML Validator](https://validator.w3.org/)**
 
   - result for index.html<br>
     First I had an error because my semantics of the h2/button element weren't correct. No errors or warnings were found after fixing this problem.
@@ -170,14 +170,13 @@ The second area provides directions to the vineyard. Both images are screenshots
 
 I also checked all pages in the validator via text-input and likewise no errors were detected in this way.
 
-2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
-
+- **[CSS Validator](https://jigsaw.w3.org/css-validator/)**
    - result for styles.css <br>
      The only warning I received initially was the use of a text wrap property. I could easily fix this by changing it into the white-space property.
      ![CSS results](documentation/readme/css-validator.png)
      The warning is due to import of the Google fonts.
 
-3. Lighthouse Test<br>
+2. **Lighthouse Test**<br>
    To measure the website against performance, accessibility, SEO and best practice I used [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).<br>
    I could improve the accessibility by changing the quotation marks, which are a part of the coordinates and can not be used in the aria-label, into two single quotes.
 
@@ -191,7 +190,7 @@ I also checked all pages in the validator via text-input and likewise no errors 
 - result for contact.html:
   ![Lighthouse with warning](documentation/readme/lighthouse-contact.png)
 
-4. Manual testing <br>
+3. **Manual testing** <br>
 
 To ensure the pages are responsive, I used the Google Chrome developer tools.
 | **Test** | **Test Description** | **Expected Outcome** | **Result**|
@@ -216,7 +215,7 @@ To ensure the pages are responsive, I used the Google Chrome developer tools.
 | Responsiveness mobile - navigation | Open website on mobile | On mobile screens the navigation should be a first seen as burger icon | Pass |
 | Responsiveness 4K+ | Open the website on 4K or larger screen | The website should have a maximum witdh and stay in in the middle. The background color should be a light green, according to the color scheme | Pass |
 
-5. Browser Compatibility<br>
+4. Browser Compatibility<br>
    The tests were conducted using the following browsers:
 
 - Google Chrome Version 120.0.6099.71
@@ -224,7 +223,7 @@ To ensure the pages are responsive, I used the Google Chrome developer tools.
 - Safari on iOS 17.1.2
 - Edge Version 120.0.2210.61
 
-6. Bugs
+5. Bugs
 
 - No bugs were found.
 
