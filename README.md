@@ -123,6 +123,11 @@ The contact page contains two areas. The first offers a contact form that users 
 The second area provides directions to the vineyard. Both images are screenshots from Google as in Germany it is not permitted to use the interactive Google map due to data security concerns. However, clicking on the images takes the user to the Google Maps page in a new tab. <br>
 ![Find us fieldset](documentation/readme/find-us-fieldset.png)
 
+- **404 Page**<br>
+The 404 page is a simple page with a heading and a sentence, including a link back to the main page. It was created to provide a better user experience. <br>
+![404 page on desktop](documentation/readme/404-page-desktop.png)<br>
+![404 page on desktop](documentation/readme/404-page-mobile.png)<br>
+
 ### Features, which I would like to implement in the future
 
 - As the gallery is currently very simple, I would like to improve it in the future. I could imagine a different design with enlargeable images and subtitles. Furthermore, I would create tags with categories for spring, summer, autumn & winter.
@@ -174,6 +179,8 @@ The second area provides directions to the vineyard. Both images are screenshots
     ![HTML results contact with error 3](documentation/readme/html-validator-error-contact.png)
     2. final result<br>
     ![HTML results contact](documentation/readme/html-validator-contact.png)<br>
+  - result for 404.html<br>
+  ![HTML results 404 page](documentation/readme/html-validator-404.png)
 
 I also checked all pages in the validator via text-input, and likewise no errors were detected in this way. All I got was an information to avoid trailing slashes in void elements.
 
@@ -209,7 +216,12 @@ I also checked all pages in the validator via text-input, and likewise no errors
   1. mobile<br>
   ![Lighthouse report for contact page on mobile screens](documentation/readme/lighthouse-contact-mobile.png)<br>
   2. desktop<br>
-  ![Lighthouse report for contact page on desktop](documentation/readme/lighthouse-contact.png)
+  ![Lighthouse report for contact page on desktop](documentation/readme/lighthouse-contact.png)<br>
+- result for 404.html:<br>
+  1. mobile<br>
+  ![Lighthouse report for 404 page on mobile screens](documentation/readme/lighthouse-404-mobile.png)<br>
+  2. desktop<br>
+  ![Lighthouse report for 404 page on desktop](documentation/readme/lighthouse-404-desktop.png)<br>
 
 3. **Manual testing** <br>
 
@@ -233,6 +245,8 @@ To ensure the pages are responsive, I used the Google Chrome developer tools.
 | Contact page - form, wrong email input | Try to submit form without an actual email address in input field email | Form is not submitted and user is asked to enter a valid email address | Pass |
 | Contact page - form submission | Click on the "cheers and submit" button. A new page with Code Institute form dumb should open | After all required contact fields have been filled out, click on the cheers and submit button. A new page with Code Institute form dumb should open | Pass |
 | Contact page - images with links | Click on the images in the "How to find us" section and a new tab with Google Maps opens | After clicking on the images in the "How to find us" section", a new tab with Google Maps should open with the coordinates already located | Pass |
+| 404 page | Request a page that doesn't exist | Users will be redirected to the 404-page | Pass |
+| 404 page - link | Click on the word homepage to go back to main page | After clicking on the word homepage, you will be redirected to the main page | Pass |
 | Responsiveness mobile - navigation | Open website on mobile | On mobile screens the navigation should be a first seen as burger icon | Pass |
 | Responsiveness 4K+ | Open the website on 4K or larger screen | The website should have a maximum width and stay in the middle. The background color should be a light green, according to the color scheme | Pass |
 
