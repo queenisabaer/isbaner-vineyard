@@ -186,7 +186,7 @@ main {
 }
 
 #contact-box {
-    background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat 10% center/cover;
+    background: url(../images/contact/grapes-in-july-2018.webp) no-repeat 10% center/cover;
     width: 100%;
     flex: 1;
 }
@@ -274,7 +274,7 @@ main {
 }
 
 #contact {
-    background: url(../images/contact/grapes-in-july-2018.jpg) no-repeat center center/cover;
+    background: url(../images/contact/grapes-in-july-2018.webp) no-repeat center center/cover;
 }
 
 .fieldset {
