@@ -36,7 +36,7 @@ Goals for:
 - **Imagery:**
   All photos were taken by the owners within the last years and were provided for the project. They reflect the daily reality on the vineyard with all of its beauty.
 - **Colour Scheme:**
-  The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photograph of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields.
+  The color scheme should match the vineyard theme and the fact that sandstone is mined in the region, which is also used in the garden. Therefore, with the pipette function on [coloors.co](https://coolors.co/), green and brown shades were chosen, which were taken from the photograph of the background image at contact.html. Since green also dominates in the vineyard, the shade #295900 has become the primary color. The brown shades set accents primarily as a background for buttons and text fields.<br>
   ![Color palette](documentation/readme/grapes-coloors-palette.png)
 - **Typography:**
   The font [Nobile](https://fonts.google.com/specimen/Nobile?query=nobile) was selected for text content. It was important that this font creates a contrast to logo and heading. It should therefore be clear, simple and easy to read on all screen sizes.
@@ -89,40 +89,38 @@ The gallery was created without caption. This is a feature I would like to integ
 ### Existing Features
 
 All the pages were created with a mobile first approach and are made responsive. To ensure that the layout of the pages remains consistent even on very large screens, the text body has been given a maximum width and a margin on both sides.  
-Every page contains a responsive navigation bar on the top with a logo on the left side and the navigation on the right that supports easy navigation. On small screens (e.g. mobile devices) the navigation will become a clickable burger toggler. To make it easier for users to know where they are on the website, the current page is underlined.
-
+Every page contains a responsive navigation bar on the top with a logo on the left side and the navigation on the right that supports easy navigation. On small screens (e.g. mobile devices) the navigation will become a clickable burger toggler. To make it easier for users to know where they are on the website, the current page is underlined.<br>
 ![Navbar on mobile devices](documentation/readme/navigation-mobile.png)
 ![Navbar when clicked on hamburger menu on a mobile device](documentation/readme/navigation-mobile-toggle.png)
 ![Navbar ob tablets and larger screens](documentation/readme/navigation-desktop.png)
 
-The footer stays on the bottom of every page and features clickable social media icons and the coordinates of the vineyard, which act as a link to google maps. All links on the footer are opened in a new tab.
+The footer stays on the bottom of every page and features clickable social media icons and the coordinates of the vineyard, which act as a link to google maps. All links on the footer are opened in a new tab.<br>
 ![Footer on mobile devices](documentation/readme/footer-mobile.png)
 ![Footer on desktop](documentation/readme/footer-desktop.png)
 
 - **Hero image**
 
-The hero image on the main page shows a lovely view over the vineyard. This is intended to convey the beauty of the vineyard directly to the user. In the upper left corner there is a link button that points to the about us page. The button was moved to the side, unlike originally planned, so that the image is not disturbed to.
+The hero image on the main page shows a lovely view over the vineyard. This is intended to convey the beauty of the vineyard directly to the user. In the upper left corner there is a link button that points to the about us page. The button was moved to the side, unlike originally planned, so that the image is not disturbed to.<br>
 ![Hero image](documentation/readme/hero-image.png)<br>
-Below the hero image there are two image containers that refer to the other subpages of the website. They were adapted to the layout of the hero image.
+Below the hero image there are two image containers that refer to the other subpages of the website. They were adapted to the layout of the hero image. <br>
 ![Image container main page](documentation/readme/image-container-main.png)
 
 - **About us Page**
 
-The _About us_ page consists of three parts. The first part tells the short story about the owners of the vineyard, the second gives some information about the grape chasselas and the third part highlights the region where the vinyard is located. Each section contains an image, a heading, some text and a link. When viewed on a mobile phone the image will be placed on top of the heading. The links change their apperence when hovered.
-
+The _About us_ page consists of three parts. The first part tells a short story about the owners of the vineyard, the second gives some information about the grape chasselas and the third part highlights the region where the vinyard is located. Each section contains an image, a heading, some text and a link. When viewed on a mobile phone the image will be placed on top of the heading. The links change their apperence when hovered.<br>
 ![About us Page](documentation/readme/about-section.png)
 
 - **Gallery Page**
 
 The Gallery page will provide users with photographs to see what happens on the vineyard spread over a year. It has two main sections. The first contains horizontal photographs and the second vertical ones.
-To create the responsive gallery I used the tutorial and css code for a grid gallery by [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html)
+To create the responsive gallery I used the tutorial and css code for a grid gallery by [Rüdiger Alte](https://www.imarketinx.de/artikel/responsive-image-gallery-with-css-grid.html) <br>
 ![Gallery Page](documentation/readme/gallery.png)
 
 - **Contact Page**
 
-The contact page contains two areas. The first offers a contact form that users can complete to get in touch with the owners of the vineyard. The user is asked to enter their first name, last name and e-mail address when sending a message. This information is mandatory. After submitting the form, a new tab with the results are displayed. Currently it shows the formdump.codeinstitute.net page with the determined form data. Unfortunately, the Code Institute formdumb is not designed to display multiple entries in checkboxes, which is why only the first one is displayed as value. 
+The contact page contains two areas. The first offers a contact form that users can complete to get in touch with the owners of the vineyard. The user is asked to enter their first name, last name and e-mail address when sending a message. This information is mandatory. After submitting the form, a new tab with the results are displayed. Currently it shows the formdump.codeinstitute.net page with the determined form data. Unfortunately, the Code Institute formdumb is not designed to display multiple entries in checkboxes, which is why only the first one is displayed as value. <br>
 ![Contact fieldset](documentation/readme/contact-fieldset.png)<br>
-The second area provides directions to the vineyard. Both images are screenshots from google as in germany it is not permitted to use the interactive google map due to data security concerns. However, clicking on the images takes the user to the Google Maps page in a new tab.
+The second area provides directions to the vineyard. Both images are screenshots from google as in germany it is not permitted to use the interactive google map due to data security concerns. However, clicking on the images takes the user to the Google Maps page in a new tab. <br>
 ![Find us fieldset](documentation/readme/find-us-fieldset.png)
 
 ### Features, which I would like to implement in the future
@@ -182,10 +180,10 @@ I also checked all pages in the validator via text-input and likewise no errors 
 - **[CSS Validator](https://jigsaw.w3.org/css-validator/)**
    - result for styles.css <br>
      The only warning I received initially was the use of a text wrap property. I could easily fix this by changing it into the white-space property.
-     ![CSS results](documentation/readme/css-validator.png)
+     ![CSS result](documentation/readme/css-validator.png)
      The warning is due to import of the Google fonts.
 
-2. **Lighthouse Test**<br>
+2. **Lighthouse Test** <br>
    To measure the website against performance, accessibility, SEO and best practice I used [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).<br>
    I could improve the accessibility by changing the quotation marks (which are a part of the coordinates and can not be used in the aria-label) into two single quotes.
 
@@ -252,8 +250,29 @@ To ensure the pages are responsive, I used the Google Chrome developer tools.
 
 ## Deployment
 
-The site is deployed using GitHub Pages.
+This site is deployed using GitHub Pages. To deploy it from its GitHub repository to GitHub Pages I took the following steps:
+1. Log in (or sign up) to Github.
+2. Navigate to the respository for this project by selecting [*queenisabaer/isbaner-vineyard*](https://github.com/queenisabaer/isbaner-vineyard)
+3. Click the *Settings* tab above the repository 
+4. In the left hand menu select *Pages*
+5. In the section **"Build and deployment"** under *Source* select *Deploy from a branch* 
+6. In the section **"Build and deployment"** under *Branch* select in the first area *main* and in the second *root*
+7. Click the *Save* Button<br>
+After refreshing the settings site for this repository above the **"Build and deployment"** section you will see the GitHub Pages area with the link to the [view of the live site](https://queenisabaer.github.io/isbaner-vineyard/)
 
+- Forking this GitHub repository
+1.  Log in to Github.
+2.  Navigate to the respository for this project by selecting [*queenisabaer/isbaner-vineyard*](https://github.com/queenisabaer/isbaner-vineyard)
+3. Click at the top of the repository on the **Fork** button on the right side
+
+- Clone this repository
+1.  Log in to Github.
+2.  Navigate to the respository for this project by selecting [*queenisabaer/isbaner-vineyard*](https://github.com/queenisabaer/isbaner-vineyard)
+3. In the top right corner click on the green *Code* button
+4. Copy the HTTPS URL in the tab *Local*
+5. Go to the code editor of your choice and open the terminal
+5. Type `git clone` and paste the URL you copied into your terminal
+6. Press the enter key
 
 ## Credits
 
