@@ -156,19 +156,25 @@ The second area provides directions to the vineyard. Both images are screenshots
 
   - result for index.html<br>
     First I had an error because my semantics of the h2/button element weren't correct. No errors or warnings were found after fixing this problem.
+    1. result with error
     ![HTML results index with errors](documentation/readme/html-validator-errors-index.png)
+    2. final result
     ![HTML results index](documentation/readme/html-validator-index.png)<br>
   - result for about.html<br>
     I made a mistake because I used a link within a button element, which is semantically wrong. I deleted the button and styled the link instead and no more errors were found.
+    1. result with error
     ![HTML results about us with errors](documentation/readme/html-validator-errors-about.png)
+    2. final result
     ![HTML results about us](documentation/readme/html-validator-about.png)<br>
   - result for gallery.html<br>
     ![HTML results gallery](documentation/readme/html-validator-gallery.png)<br>
   - result for contact.html<br>
     On the contact page I forgot to delete a paragraph tag and incorrectly assigned an ID to two other elements. After I individualized them, no further errors were found.
-    ![HTML results contact with error](documentation/readme/html-validator-errors-contact2.png)
-    ![HTML results contact with error](documentation/readme/html-validator-errors-contact1.png)
-    ![HTML results contact with error](documentation/readme/html-validator-error-contact.png)
+    1. result with error
+    ![HTML results contact with error 1](documentation/readme/html-validator-errors-contact2.png)
+    ![HTML results contact with error 2](documentation/readme/html-validator-errors-contact1.png)
+    ![HTML results contact with error 3](documentation/readme/html-validator-error-contact.png)
+    2. final result
     ![HTML results contact](documentation/readme/html-validator-contact.png)<br>
 
 I also checked all pages in the validator via text-input and likewise no errors were detected in this way. All I got was a information to avoid trailing slashes in void elements.
@@ -181,22 +187,31 @@ I also checked all pages in the validator via text-input and likewise no errors 
 
 2. **Lighthouse Test**<br>
    To measure the website against performance, accessibility, SEO and best practice I used [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).<br>
-   I could improve the accessibility by changing the quotation marks, which are a part of the coordinates and can not be used in the aria-label, into two single quotes.
+   I could improve the accessibility by changing the quotation marks (which are a part of the coordinates and can not be used in the aria-label) into two single quotes.
 
 - result for index.html:<br>
-1. with warning for accessibility
-  ![Lighthouse with warning](documentation/readme/lighthouse-accessibility-coordinates.png)<br>
-  2. desktop
-  ![Lighthouse with correction](documentation/readme/lighthouse-after-correction.png)<br>
+  1. with warning for accessibility(desktop version)
+  ![Lighthouse report for index with warning](documentation/readme/lighthouse-accessibility-coordinates.png)<br>
+  2. desktop after correction
+  ![Lighthouse report for index with correction on desktop](documentation/readme/lighthouse-index-dektop.png)<br>
+  3. mobile
+  ![Lighthouse report for index on mobile screens](documentation/readme/lighthouse-index-mobile.png)<br>
+  ![Lighthouse report for index on mobile screens](documentation/readme/lighthouse-index-cache-policy.png)<br>
 - result for about.html:<br>
-  ![Lighthouse with warning](documentation/readme/lighthouse-about.png)<br>
-- result for gallery.html:<br>
-1. mobile
-  ![Lighthouse with warning](documentation/readme/lighthouse-gallery-mobile.png)<br>
+  1. mobile 
+  ![Lighthouse report for about page on mobile screens](documentation/readme/lighthouse-about-mob.png)<br>
   2. desktop
-  ![Lighthouse with warning](documentation/readme/lighthouse-gallery-desktop.png)<br>
+  ![Lighthouse report for about page on desktop](documentation/readme/lighthouse-about-desktop.png)<br>
+- result for gallery.html:<br>
+  1. mobile
+  ![Lighthouse report for gallery page on mobile devices](documentation/readme/lighthouse-gallery-mobile.png)<br>
+  2. desktop
+  ![Lighthouse report for gallery page on dektop](documentation/readme/lighthouse-gallery-desktop.png)<br>
 - result for contact.html:<br>
-  ![Lighthouse with warning](documentation/readme/lighthouse-contact.png)
+  1. mobile
+  ![Lighthouse report for contact page on mobile screens](documentation/readme/lighthouse-contact-mobile.png)<br>
+  2. desktop
+  ![Lighthouse report for contact page on desktop](documentation/readme/lighthouse-contact.png)
 
 3. **Manual testing** <br>
 
