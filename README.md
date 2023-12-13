@@ -143,6 +143,7 @@ The second area provides directions to the vineyard. Both images are screenshots
 - [Balsamiq](https://balsamiq.com/) was used to design the wireframes.
 - [Coloors](https://coolors.co/image-picker) was used to create the color scheme.
 - [iLoveIMG](https://www.iloveimg.com/) was used to cropp and resize the images.
+- [Pixelied](https://pixelied.com/) was used to convert images from jpg to webp
 - [Am I Responsive](https://ui.dev/amiresponsive) was used to display the website on different devices.
 - [beautifier](https://beautifier.io/) to beautify the code
 
@@ -169,7 +170,7 @@ The second area provides directions to the vineyard. Both images are screenshots
     ![HTML results contact with error](documentation/readme/html-validator-error-contact.png)
     ![HTML results contact](documentation/readme/html-validator-contact.png)<br>
 
-I also checked all pages in the validator via text-input and likewise no errors were detected in this way.
+I also checked all pages in the validator via text-input and likewise no errors were detected in this way. All I got was a information to avoid trailing slashes in void elements.
 
 - **[CSS Validator](https://jigsaw.w3.org/css-validator/)**
    - result for styles.css <br>
@@ -181,14 +182,19 @@ I also checked all pages in the validator via text-input and likewise no errors 
    To measure the website against performance, accessibility, SEO and best practice I used [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de).<br>
    I could improve the accessibility by changing the quotation marks, which are a part of the coordinates and can not be used in the aria-label, into two single quotes.
 
-- result for index.html:
-  ![Lighthouse with warning](documentation/readme/lighthouse-accessibility-coordinates.png)
-  ![Lighthouse with correction](documentation/readme/lighthouse-after-correction.png)
-- result for about.html:
-  ![Lighthouse with warning](documentation/readme/lighthouse-about.png)
-  -result for gallery.html:
-  ![Lighthouse with warning](documentation/readme/lighthouse-gallery.png)
-- result for contact.html:
+- result for index.html:<br>
+1. with warning for accessibility
+  ![Lighthouse with warning](documentation/readme/lighthouse-accessibility-coordinates.png)<br>
+  2. desktop
+  ![Lighthouse with correction](documentation/readme/lighthouse-after-correction.png)<br>
+- result for about.html:<br>
+  ![Lighthouse with warning](documentation/readme/lighthouse-about.png)<br>
+- result for gallery.html:<br>
+1. mobile
+  ![Lighthouse with warning](documentation/readme/lighthouse-gallery-mobile.png)<br>
+  2. desktop
+  ![Lighthouse with warning](documentation/readme/lighthouse-gallery-desktop.png)<br>
+- result for contact.html:<br>
   ![Lighthouse with warning](documentation/readme/lighthouse-contact.png)
 
 3. **Manual testing** <br>
