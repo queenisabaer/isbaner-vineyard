@@ -210,7 +210,6 @@ main {
 
 .row-image {
   align-self: flex-start;
-  max-width: 640px ;
 }
 
 .row-text {
@@ -254,6 +253,7 @@ main {
 
 .gallery img {
   width: 100%;
+  max-width: 371px;
 }
 
 .grid-container {
